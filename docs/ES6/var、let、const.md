@@ -49,3 +49,8 @@ fn1()
 ```javascript
 const DEMO = 'offer'  // 常量
 ```
+
+
+&emsp; <br/>
+&emsp; <br/>
+[下一篇](/ES6/Destructuring)

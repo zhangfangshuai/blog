@@ -77,3 +77,13 @@ withinErrorMargin(0.1 + 0.2, 0.3)  // true
 ```
 
 
+### `Number.isSafeInteger()`
+安全整数
+安全整数范围 -2^53 到 2^53 之间，超过后，JS即无法精确表示
+最大安全整数 `Number.MAX_SAFE_INTEGER`
+最小安全整数 `Number.MIN_SAFE_INTEGER`
+```javascript
+// 超过安全整数范围JS就无法正确判定
+Math.pow(2, 53) === Math.pow(2, 53) + 1  // true
+```
+

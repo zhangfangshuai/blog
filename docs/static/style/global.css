@@ -4,10 +4,22 @@
     height: 50px;
     vertical-align: middle;
 }
-
+.sidebar-logo {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    vertical-align: middle;
+}
 .websit {
     display: inline-block;
     font-size: 30px;
     margin-left: 12px;
     vertical-align: middle;
+}
+.cover-css {
+    opacity: 0.5;
+}
+
+section.cover.has-mask .mask.mask {
+    opacity: 0.4;
 }
