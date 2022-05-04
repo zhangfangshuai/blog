@@ -19,7 +19,3 @@
 .cover-css {
     opacity: 0.5;
 }
-
-section.cover.has-mask .mask.mask {
-    opacity: 0.4;
-}
