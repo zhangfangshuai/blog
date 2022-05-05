@@ -4,3 +4,4 @@
 ** [Destructuring](/ES6/Destructuring)
 ** [String](/ES6/String)
 ** [Number](/ES6/Number)
+** [Function](/ES6/Function)
