@@ -10,3 +10,4 @@
 ** [Number](/ES6/Number)
 ** [Function](/ES6/Function)
 ** [Array](/ES6/Array)
+** [Object](/ES6/Object)

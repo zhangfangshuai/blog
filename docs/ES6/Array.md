@@ -297,3 +297,9 @@ let arr = Array(3)   // [, , ,]
 // values()
 [...arr.values()] // [undefined, undefined, undefined]
 ```
+
+
+
+&emsp; <br/>
+&emsp; <br/>
+[下一篇](/ES6/Object)
