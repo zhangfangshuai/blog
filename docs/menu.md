@@ -17,3 +17,4 @@
     * [运算符扩展](/ES6/Operator)
     * [Symbol](/ES6/Symbol)
     * [Set](/ES6/Set)
+    * [Map](/ES6/Map)

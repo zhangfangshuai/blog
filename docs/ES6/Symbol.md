@@ -133,7 +133,7 @@ function getArea(shape, options) {
 getArea(shapeType.triangle, { width: 100, height: 100 })
 ```
 
-&emsp; 如果仔细分析，可以发现shapeType.triangle等于哪个值并不重要，只要确保不会跟其他shapeType属性的值冲突即可。因此，这里就很适合改用 Symbol 值。
+&emsp; 如果仔细分析，可以发现`shapeType.triangle`等于哪个值并不重要，只要确保不会跟其他`shapeType`属性的值冲突即可。因此，这里就很适合改用 Symbol 值。
 
 ```js
 const shapeType = {

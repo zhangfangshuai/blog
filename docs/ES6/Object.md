@@ -108,6 +108,8 @@ obj.find()   // "hello"
 <br>
 
 ### 扩展运算符`...`
+!> 扩展运算符内部实现本质是`for...of`
+
 同数组类似，ES2018中扩充了对象也可以使用拓展运算符来获取对象中的项
 ##### 配合解构赋值使用
 ```js
@@ -194,16 +196,19 @@ const obj = {
 };
 
 Object.getOwnPropertyDescriptors(obj)
-// { foo:
-//    { value: 123,
-//      writable: true,
-//      enumerable: true,
-//      configurable: true },
+// { foo: { 
+//       value: 123,
+//       writable: true,
+//       enumerable: true,
+//       configurable: true
+//     },
 //   bar:
-//    { get: [Function: get bar],
-//      set: undefined,
-//      enumerable: true,
-//      configurable: true } }
+//     { get: [Function: get bar],
+//       set: undefined,
+//       enumerable: true,
+//       configurable: true
+//     }
+// }
 ```
 
 ##### 实现Mixin(混入)模式
