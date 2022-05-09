@@ -18,3 +18,6 @@
     * [Symbol](/ES6/Symbol)
     * [Set](/ES6/Set)
     * [Map](/ES6/Map)
+    * [Proxy](/ES6/Proxy)
+    * [Promise](/ES6/Promise)
+    * [Async](/ES6/Async)
