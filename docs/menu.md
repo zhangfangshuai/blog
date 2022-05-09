@@ -20,4 +20,8 @@
     * [Map](/ES6/Map)
     * [Proxy](/ES6/Proxy)
     * [Promise](/ES6/Promise)
+    * [Interator、for...of](/ES6/Interator)
     * [Async](/ES6/Async)
+
+
+
