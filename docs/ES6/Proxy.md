@@ -51,28 +51,6 @@ target.a   // "b"
 ```
 
 
-### Vue3.x双向绑定简版
-
-?>&emsp;以下是一个简化版的Vue3.x实现双向数据绑定原理的写法。它比Vue2.x优势在于：**Proxy是直接监听对象，而Object.defineProperty监听的是属性，它的性能直接由浏览器优化，比defineProperty要好很多, 对于多个属性的值也不需要进行循环遍历处理**
-```js
-let obj = { msg: 'vue3', count: 0 }
-let vm = new Proxy(obj, { // 执行代理行为的函数
-    get(target, key) {
-        return target[key]
-    },
-    set(target, key, value) {
-        if (target[key] === newValue) return
-        target[key] = newValue
-        document.querySelector('#app').textContent = target[key]
-        console.log('set app textContent success')
-    }
-})
-
-vm.msg = 'hello vue3'
-// set app textContent success
-```
-
-
 ### 挂载到原型上
 
 Proxy 实例也可以作为其他对象的原型对象，通过`Object.create(__proto__)`来设置。这样，当目标对象上不存在某个属性时，便会去原型上找，也就会被原型上的Proxy拦截
@@ -246,6 +224,81 @@ person.age = 300 // 报错
 &emsp; 上面代码中，由于设置了存值函数`set`，任何不符合要求的`age`属性赋值，都会抛出一个错误，这是数据验证的一种实现方法。
 
 利用set方法，还可以数据绑定，即每当对象发生变化时，会自动更新 DOM。
+
+<br>
+
+### Vue3.x双向绑定简版
+
+vue3.x的双向数据绑定主要利用ES6的Proxy代理来实现，通过创建代理对象，对目标对象读取和设置更新之前进行一层“拦截”，读取时调用`get`方法，设置时调用`set`方法，并把值通向目标对象。
+
+?>&emsp;Vue3.x双向绑定比Vue2.x优势在于：**Proxy是直接监听对象本身，而`Object.defineProperty`监听的是属性，监听对象和监听对象所有属性对比，性能直接由浏览器优化，优势明显**
+
+以下是一个简化版的Vue3.x实现双向数据绑定原理的写法。
+```js
+let obj = { msg: 'vue3', count: 0 }
+let vm3 = new Proxy(obj, { // 执行代理行为的函数
+    get(target, key) {
+        console.log('proxy get')
+        return target[key]
+    },
+    set(target, key, value) {
+        if (target[key] === value) return
+        console.log('proxy set; key:', key, ', value: ', value)
+        target[key] = value
+        document.querySelector('#app').textContent = target[key]  // dom更新
+    }
+})
+vm3.msg
+// proxy get
+// vue3  
+vm3.count = 100
+// proxy set; key: count, value: 100
+```
+
+<br>
+
+### 对比Vue2.x双向绑定
+&emsp; Vue2.x利用的是`Object.definedProperty`来实现，当对象某个属性被读取或者被设置前执行一层拦截，读取时调用`get`方法，设置时调用`set`方法。
+
+&emsp; `Object.definedProperty`是针对对象属性的操作执行的一层拦截，因此，在检测时需要对每一个对象每一个属性进行观察。
+
+!> `Object.definedProperty`定义 `descriptor`时，不允许`writable`和`set`方法同时存在，也不允许`value`和`set`方法同时存在。否则会报错。
+
+```js
+let data = { msg: 'vue2', count: 10 },
+    vm2 = {}
+
+proxyData(data)
+// Vue2.x双向数据绑定实现原理
+function proxyData(data) {
+    Object.keys(data).forEach(key => {
+        Object.defineProperty(vm2, key, {
+            configurable: true,
+            enumerable: true,
+            get() {
+                console.log('defineProperty getter, value是：', data[key])
+                return data[key]
+            },
+            set(newVal) {
+                console.log(`defineProperty setter, value:`, newVue)
+                data[key] = newVal
+                document.querySelector('#app').textContent = data[key] // dom更新
+            }
+        })
+    })
+}
+
+vm2.msg
+// defineProperty getter, value是：vue2
+vm2.msg = 'hello vue3 '
+// defineProperty setter, value: hello vue3
+```
+
+
+
+
+
+
 
 
 
