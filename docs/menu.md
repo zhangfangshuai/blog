@@ -23,6 +23,8 @@
     * [Iterator、for...of](/ES6/Iterator)
     * [Async](/ES6/Async)
     * [Class](/ES6/Class)
+    * [Class_extends](/ES6/Class_extends)
+    * [Module](/ES6/Module)
 
 
 
