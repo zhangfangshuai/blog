@@ -4,7 +4,7 @@
 <br>
 
 <div style="display: flex; justify-content: space-around;">
-    <img src="https://upload-images.jianshu.io/upload_images/8646214-8aaac8c302a0ea2d.png" />
+    <img src="../static/image/code/array_struct.png" />
     <img src="../static/image/code/object_struct.png" />
 </div>
 
