@@ -15,4 +15,4 @@
 <br>
 <br>
 
-[下一篇](/JS_basic/prototype)
+[下一篇：prototype](/JS_basic/prototype)

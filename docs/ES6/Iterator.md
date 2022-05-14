@@ -100,4 +100,4 @@ for(let v of obj) {
 <br>
 <br>
 
-[下一篇](/ES6/Async)
+[下一篇：Async](/ES6/Async)

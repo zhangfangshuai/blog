@@ -353,4 +353,4 @@ Object.fromEntries([
 <br>
 <br>
 
-[下一篇](/ES6/Operator)
+[下一篇：Operator](/ES6/Operator)

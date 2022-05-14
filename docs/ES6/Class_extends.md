@@ -138,4 +138,4 @@ p2.__proto__.__proto__ === p1.__proto__   // true
 <br>
 <br>
 
-[下一篇](/ES6/Module)
+[下一篇：Module](/ES6/Module)

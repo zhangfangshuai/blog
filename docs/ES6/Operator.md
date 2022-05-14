@@ -123,4 +123,4 @@ user.id ||= 1;
 <br>
 <br>
 
-[下一篇](/ES6/Symbol)
+[下一篇：Symbol](/ES6/Symbol)

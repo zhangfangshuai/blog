@@ -114,4 +114,4 @@ let max = Math.max.apply(null, numbers)
 <br/>
 <br/>
 
-[下一篇](/JS_basic/Array_like-Object)
+[下一篇：Array_like-Object](/JS_basic/Array_like-Object)

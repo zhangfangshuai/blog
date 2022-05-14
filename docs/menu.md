@@ -1,10 +1,13 @@
 <!-- 侧边栏配置文件  -->
 
 * JS基础
+    * [use_strict](/JS_basic/use_strict)
+    * [defer、async](/JS_basic/defer、async)
     * [this](/JS_basic/this)
     * [prototype](/JS_basic/prototype)
     * [call、apply](/JS_basic/call、apply)
     * [Array_like-Object](/JS_basic/Array_like-Object)
+    * [编程风格规范](/JS_basic/编程风格规范)
 
 * ES6
     * [var、let、const](/ES6/var、let、const)

@@ -203,4 +203,4 @@ BigInt.prototype.toLocaleString()
 
 &emsp; <br/>
 &emsp; <br/>
-[下一篇](/ES6/Function)
+[下一篇：Function](/ES6/Function)

@@ -206,4 +206,4 @@ Promise.race([
 <br>
 <br>
 
-[下一篇](/ES6/Iterator)
+[下一篇：Iterator](/ES6/Iterator)

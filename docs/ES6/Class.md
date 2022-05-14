@@ -234,4 +234,4 @@ var obj = new Rectangle(3, 4); // 输出 true
 <br>
 <br>
 
-[下一篇：类的继承](/ES6/Class_extends)
+[下一篇：类的继承：Class_extends](/ES6/Class_extends)

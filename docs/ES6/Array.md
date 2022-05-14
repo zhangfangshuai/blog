@@ -304,4 +304,5 @@ let arr = Array(3)   // [, , ,]
 
 &emsp; <br/>
 &emsp; <br/>
-[下一篇](/ES6/Object)
+
+[下一篇：Object](/ES6/Object)

@@ -305,6 +305,6 @@ vm2.msg = 'hello vue3 '
 <br>
 <br>
 
-[下一篇](/ES6/Promise)
+[下一篇：Promise](/ES6/Promise)
 
 

@@ -161,4 +161,4 @@ let difference = new Set([...a].filter(x => !b.has(x)));
 <br>
 <br>
 
-[下一篇](/ES6/Map)
+[下一篇：Map](/ES6/Map)

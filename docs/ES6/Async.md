@@ -152,4 +152,4 @@ const a = async () => {
 <br>
 <br>
 
-[下一篇](/ES6/Class)
+[下一篇：Class](/ES6/Class)

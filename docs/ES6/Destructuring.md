@@ -178,4 +178,4 @@ const { SourceMapConsumer, SourceNode } = require('source-map');
 
 &emsp; <br/>
 &emsp; <br/>
-[下一篇](/ES6/String)
+[下一篇：String](/ES6/String)

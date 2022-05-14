@@ -3,7 +3,7 @@
 ### 概要总结 <!-- {docsify-ignore} -->
 1. Map是ES6提供的新的数据类型，它类似于对象，也是键值对的集合，但是“键”的范围不限于字符串，更适合键值对数据结构。
 2. 对象键值对的键只能是字符串（或Symbol），用其他类型指定键也会被强转成字符串；而Map允许接收任意类型作为键使用，如一个数组、一个dom节点、一个函数，甚至是`undefined`。是一种 “值-值”对应的关系，也就是说，Map的键本质上也是一种“值”。
-3. Map不能直接使用`.`符号获取某个值，而是需要通过Map的原型方法`get`获取。
+3. Map不能直接使用`.`符号获取某个值，而是需要通过Map的原型方法`get`获取，如`map.get(key)`。
 4. Map可以通过`size`来获取数据长度，而不是使用`length`，这一点和Set相同。
 5. 因为Map是一种“值-值”的关系，所以即便当键一致时，只要这个键所指向的地址空间不一样，那获取的值的结果也是不一样的。
 6. Map有自己的原型方法如`set`、`keys`、`forEach`等，但没有数组和对象的原型方法如`filter`、`getOwnProperty`等
@@ -12,7 +12,7 @@
 
 
 ### 初始化 <!-- {docsify-ignore} -->
-&emsp; 本身是一个构造函数，用来生产Map数据结构。它可以接受一个数组，用作初始化参数。这个数组的格式是个二维数组，是个`entry Object`。
+&emsp; 本身是一个构造函数，用来生成Map数据结构。它可以接受一个数组，用作初始化参数。这个数组的格式是个二维数组，是个`entry Object`。
 ```js
 const map = new Map([
     ['name', 'zhangfs'],
@@ -203,6 +203,7 @@ const map = new Map(arr)
 ##### 3. Map 转为对象
 - 如果所有 Map 的键都是字符串，它可以无损地转为对象。<br>
 - 如果有非字符串的键名，那么这个键名会被转成字符串，再作为对象的键名。
+
 ```js
 function strMapToObj(strMap) {
     let obj = Object.create(null)
@@ -273,7 +274,7 @@ jsonToMap('[[true,7],[{"foo":3},["abc"]]]')
 <br>
 <br>
 
-[下一篇](/ES6/Proxy)
+[下一篇：Proxy](/ES6/Proxy)
 
 
 

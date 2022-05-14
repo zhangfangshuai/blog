@@ -351,4 +351,5 @@ factorial(10)
 
 &emsp; <br/>
 &emsp; <br/>
-[下一篇](/ES6/Array)
+
+[下一篇：Array](/ES6/Array)

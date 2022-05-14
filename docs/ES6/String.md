@@ -105,4 +105,4 @@ atStr.at(-2) // m
 
 &emsp; <br/>
 &emsp; <br/>
-[下一篇](/ES6/Number)
+[下一篇：Number](/ES6/Number)

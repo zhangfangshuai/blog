@@ -1,10 +1,10 @@
-#### 类数组对象
+#### 类数组对象 Array_like Object
 ### 引言 <!-- {docsify-ignore} -->
 &emsp; 我们知道数组和对象都是复合型数据类型（引用类型），即数组成员或对象成员存放的是指向变量值所在地址空间的指针。
 <br>
 
 <div style="display: flex; justify-content: space-around;">
-    <img src="../static/image/code/array_struct.png" />
+    <img src="https://upload-images.jianshu.io/upload_images/8646214-8aaac8c302a0ea2d.png" />
     <img src="../static/image/code/object_struct.png" />
 </div>
 
