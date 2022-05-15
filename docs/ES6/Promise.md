@@ -202,6 +202,93 @@ Promise.race([
 })
 ```
 
+<br>
+
+### 手写Promise
+
+手写Promise需要从Promise的用法入手，如下是一个基础的Promise案例
+```js
+let p = new Promise((resolve, reject) => {
+    if (true) {
+        resolve({ msg: '成功了' })
+    } else {
+        reject({ msg: '失败了' })
+    }
+})
+
+p.then(res => {
+    console.log(res)
+}, err => {
+    console.log(err)
+})
+```
+观察Promise的用法，可以确定如下几个信息：
+1. Promise自身是一个构造函数，接受一个函数类型的参数
+2. 需要三个状态（status）: `pending、fulfilled、rejected`，且状态凝固后不可再改变
+3. 需要两个方法 `resolve`、`reject`。
+4. 需要一个返回值，用于执行成功之后作为`resolve`函数参数使用
+5. 需要一个失败原因，用于执行失败之后，作为`reject`函数参数使用
+6. 使用`new`关键字生成实例化对象时，需要立刻执行参数函数
+7. 需要`then`函数，每一个实例化对象都需要继承该函数。支持接收两个参数，第一个是成功的回调，第二个是失败的回调
+8. 需要`catch`函数，每一个实例化对象都需要继承该函数。支持接收一个参数，表示失败的回调
+9. 链式调用本例不实现
+
+```js
+// 1. 定义Promise为一个函数
+function MyPromise(callback) {
+    // 2. 需要三个状态，一个成功返回的结果，和一个失败的原因
+    this.status = 'pending'   // 当前执行状态
+    this.value = null         // 成功之后返回数据
+    this.reason = null        // 失败的原因
+
+    // 5.1 解决异步问题，采用发布订阅模式，存储异步执行完成后的回调函数
+    this.onFulfilledCallbacks = []
+    this.onRejectedCallbacks = []
+
+    resolve = (value) => {
+        if (this.status === 'pending') {  // 保证状态凝固后，结果就不可改变
+            this.value = value   // 存储成功的数据
+            this.status = 'fulfilled'
+
+            // 6.1 解决异步问题，状态发生变更，执行回调函数
+            this.onFulfilledCallbacks.forEach(fn => fn(value))
+        }
+    }
+
+    reject = (reason) => {
+        if (this.status === 'pending') {
+            this.reason = reason  // 存储失败的原因
+            this.status = 'rejected'
+            
+            // 6.2 解决异步问题，状态发生变更，执行回调函数
+            this.onRejectedCallbacks.forEach(fn => fn(reason))
+        }
+    }
+
+    // 4. 当实例化对象时，需要立即执行回调函数参数
+    callback && callback(resolve, reject)
+}
+
+// 3. then、catch方法需要被实例化对象继承，因此需要定义在原型上
+MyPromise.prototype.then = function(onFulfilled, onRjected) {
+    // 4. fulfilled之后，都会调用.then方法，
+    onFulfilled = typeof onFulfilled === 'function' ? onFulfilled : (data) => { resolve(data) }
+    onRejected = typeof onRejected === 'function' ? onRjected : (err) => { throw err }
+
+    // 利用发布订阅模式实现回调
+    // 5.2 解决异步问题，将回调函数存在暂存区，当状态发生变更时，再去执行回调函数
+    if (this.status === 'pending') {
+        this.onFulfilledCallbacks.push(onFulfilled)
+        this.onRejectedCallbacks.push(onRejected)
+    }
+}
+
+// 3.1 .catch是.then第二个参数的语法糖
+MyPromise.prototype.catch = function(onRejcted) {
+    this.then(null, onRejected)
+}
+```
+
 
 <br>
 <br>
