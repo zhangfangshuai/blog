@@ -24,6 +24,7 @@
     * [Proxy](/ES6/Proxy)
     * [Promise](/ES6/Promise)
     * [Iterator、for...of](/ES6/Iterator)
+    * [Generator](/ES6/Generator)
     * [Async](/ES6/Async)
     * [Class](/ES6/Class)
     * [Class_extends](/ES6/Class_extends)
