@@ -2,7 +2,7 @@
 
 ### 实现目标
 
-应该尽可能的避免服务端与业务层直接交互，因为这样服务端设计的很多api path会被引入到业务代码中，很脏乱。因此我们需要设计API层，用来中和这个矛盾。
+前端的接口设计应该尽可能的避免服务端与业务层直接交互，因为不这样做服务端设计的很多api path会被引入到业务代码中，很脏乱。因此我们需要设计API层，用来中和这个矛盾。
 
 - 目标文件1： `service.js`
 - 功能：二次封装Axios
@@ -13,6 +13,8 @@
     - 接口层（`http code`）异常统一处理
     - 封装ESM供业务API引用
 
+---
+
 - 目标文件2： `businessApi.js`
 - 功能：业务API实现
 - 功能要点：
@@ -20,11 +22,13 @@
     - 引用`service.js`，封装ESM供页面使用
     - 支持灵活的Axios私有化配置
 
+<br>
 
 ### 实现路径
 关于axios的基本知识、相关特性等，需要了解的同学可以访问 [axios中文官网](http://www.axios-js.com/zh-cn/docs/) 进行了解，本文只给出分装api层的成熟方案
 
 #### `service.js`
+二次封装Axios，实现ESM提供给`businessApi`使用
 
 ```javascript
 import axios from 'axios'
@@ -160,6 +164,7 @@ export default service
 <br>
 
 #### `businessApi.js`
+实现业务API，构建ESM并提供给前端页面使用
 
 ```js
 import service from './service.js'

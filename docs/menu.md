@@ -39,4 +39,4 @@
 
 
 * 框架与设计模式
-    * [Vue.axios.api](/framwork/Vue.axios.api)
+    * [Vue.axios.api](/framework/Vue.axios.api)
