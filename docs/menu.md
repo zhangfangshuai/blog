@@ -3,6 +3,10 @@
 * JS基础
     * [use_strict](/JS_basic/use_strict)
     * [defer、async](/JS_basic/defer、async)
+    * [强缓存与协商缓存](/JS_basic/强缓存与协商缓存)
+    * [deepClone](/JS_basic/deepClone)
+    * [防抖与节流](/JS_basic/防抖与节流)
+    * [closure](/JS_basic/closure)
     * [this](/JS_basic/this)
     * [prototype](/JS_basic/prototype)
     * [call、apply](/JS_basic/call、apply)
@@ -30,5 +34,9 @@
     * [Class_extends](/ES6/Class_extends)
     * [Module](/ES6/Module)
 
+* Vite
+    * [vite优势](/Vite/vite优势)
 
 
+* 框架与设计模式
+    * [Vue.axios.api](/framwork/Vue.axios.api)

@@ -27,4 +27,4 @@ HTML 网页中，浏览器通过script标签加载 JavaScript 脚本。
 <br>
 <br>
 
-[下一篇：this](/JS_basic/this)
+[下一篇：强缓存与协商缓存](/JS_basic/强缓存与协商缓存)
