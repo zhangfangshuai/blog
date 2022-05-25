@@ -1,7 +1,7 @@
 #### 深拷贝
 
 ### JS的数据类型
-JS一共有八种数据类型，分别为 `String`、`Number`、`Boolean`、`Array`、`Object`、`Map`、`Set`、`BigInt`，另外，还包括两个特殊数据`undefined`和`null`
+JS的数据类型在新标准中也在不断的扩充，分别为 `String`、`Number`、`Boolean`、`Array`、`Object`、`Map`、`Set`、`BigInt`(大整数)，另外，还包括两个特殊数据`undefined`和`null`
 
 JS的的数据类型分为两大类：基本数据类型 和 引用数据类型，在常规类型种，他们的归类如下：
 

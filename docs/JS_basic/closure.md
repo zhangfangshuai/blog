@@ -93,14 +93,70 @@ fn3()
 在控制台上可以看到，`fn3`除Script作用域外，还有一个Closure作用域即闭包：它包含了 `{ name: 'zfs' }`，是通过outer的内部方法`inner` `return`而来
 
 
-?> Vue中的 data() 为什么是一个函数？【解答】Vue中的data是通过闭包实现的一个私有作用域空间，保证不同组件之间的data相互独立不干扰。
+?> Vue中的 data() 为什么是一个函数？<br>**答**：Vue中的data是通过闭包实现的一个私有作用域空间，保证不同组件之间的data相互独立不干扰。
 
 
-#### 使用闭包实现计数器
+<br>
+
+### 闭包中的`this`
+
+`this`是在运行时基于函数的执行环境绑定的，在全局函数中，`this`等于`window`（在严格模式下等于null），而当被某个对象的方法调用时，`this`就等于那个对象。如果是匿名函数，`this`也指向`window`
 
 ```javascript
+var name = 'the window'
+
+let obj = {
+    name: 'zhangfs',
+
+    getName: () => {
+        return function() {
+            return this.name
+        }
+    }
+}
+console.log(obj.name)  // 'zhangfs'
+console.log(obj.getName()())  // 'the window'
+```
+
+<br>
+
+### 闭包内存泄漏与解决
+
+&emsp; 由于闭包设计的特殊性，即在作用域内部始终保持着某个函数对某个变量的引用，因此该变量的引用数至少为1，也就无法被GC回收。虽然V8开始尝试回收被闭包所占用的内存，但大家还是谨慎使用闭包。
+
+&emsp; 我们也可以优化代码，以便闭包占用内存的回收。例如，代码中创建一个dom元素，可以做如下修改：
+```javascript
+// 问题代码
+function createElement() {
+    var ele = document.getElementById('ele')
+    ele.onclick = function() {
+        console.log(ele.id)
+    }
+}
+
+// 改进后
+function createElement() {
+    var ele = document.getElementById('ele')
+    var id = ele.id
+
+    ele.onclick = function() {
+        console.log(id)
+    }
+    ele = null
+}
+```
+
+以上代码我们做了两步优化，<br>
+（1）我们把`ele.id`保存在副本变量中，避免了直接对dom元素`ele`直接的访问 <br>
+（2）有了第一步，闭包就不再引用`ele`元素了，但仍然存在一个引用。因此手动将dom元素设置为null，来释放内存空间
+
+<br>
+
+### 模仿块级作用域
+使用闭包实现计数器，以下代码虽然是使用`var`来定义`count`，但对于不同的调用方，`count`之间是不会相互影响的。
+```javascript
 function makeCounter() {
-    let count = 0
+    var count = 0
     function changeBy(num) {
         count += num
     }

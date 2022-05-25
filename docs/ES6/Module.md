@@ -121,7 +121,7 @@ console.log(profile.getName)  // zhangfs
 
 ### `export default`
 
-用于指定模块默认输出的变量，它的含义是：**将某个要导出的变量赋值给`default`**。 需要注意的是，这时`import`命令后面，不使用大括号。
+用于指定模块默认输出的变量，它的含义是：**将某个要导出的变量赋值给default**。 需要注意的是，这时`import`命令后面，不使用大括号。
 
 如果`export default`的是匿名变量时，则`import`时名字可以随便取。
 
