@@ -1,8 +1,10 @@
-/* 主页面样式 */
+/* coverage 样式重置 */
 .mask {
     opacity: 0.1 !important;
 }
-
+.cover {
+    z-index: 20;
+}
 .websit {
     display: inline-block;
     font-size: 30px;
@@ -12,18 +14,16 @@
     border-radius: 50%;
 }
 
+/* search & search result 样式重置 */
 .search.search {
     margin-bottom: 0;
     margin: 0;
     padding: 0;
-    /* position: relative; */
 }
-
 .search .input-wrap {
     width: 100%;
     padding: 6px;
 }
-
 .search .results-panel {
     height: calc(100% - 51px);
     overflow: auto;
@@ -35,11 +35,11 @@
     word-wrap: break-word;
 }
 
+/* website app name 样式重置 */
 .app-name {
     background-color: #EFEFF3;
-    padding: 12px;
+    padding: 12px 24px 12px 12px;
 }
-
 .app-name-link::after {
     content: '张芳帅的学习站';
     font-size: 0.9em;
@@ -47,12 +47,31 @@
     font-weight: 400;
 }
 
+/* sidebar 样式重置 */
 .sidebar-nav {
     height: calc(100% - 141px); /* 51 + 90 */
     overflow: auto;
 }
 
-/* 滚动条效果重写 */
+/* navbar 样式重置 */
+.app-nav.app-nav {
+    margin: 0 70px 0 0;
+    width: calc(100% - 370px);
+    opacity: 1;
+    padding: 20px 0px 5px 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.07);
+}
+
+/* article 样式重置 */
+.content {
+    height: calc(100% - 60px);
+    overflow: auto;
+    top: 60px;
+    padding-top: 0px;
+}
+
+
+/* scrollbar 效果重置 */
 .sidebar::-webkit-scrollbar {
     width: 0px;
 }
@@ -62,7 +81,6 @@
 .results-panel::-webkit-scrollbar {
     width: 3px;
 }
-
 .results-panel::-webkit-scrollbar-thumb,
 .sidebar-nav::-webkit-scrollbar-thumb {
     background-color: #EFEFF3;
