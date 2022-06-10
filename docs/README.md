@@ -20,3 +20,7 @@ Ciao!
 ```
 
 
+#### emoji 插件用法
+```js
+:emojikey:
+```

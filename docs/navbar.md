@@ -41,6 +41,11 @@
 
 * |
 
-* 关于作者
-    * 靓仔一枚
-    * 邮箱：zfs_zzu@163.com
+* Emoji
+    * [emoji](/Emoji/emoji.md)
+
+* |
+
+* :heart: 关于作者
+    * :heart: 靓仔一枚 
+    * :mailbox: 邮箱：zfs_zzu@163.com
