@@ -11,6 +11,9 @@
 1234: :1234: &emsp;
 +1: :+1: &emsp;
 -1: :-1: &emsp;
+thumbsdown: :thumbsdown: &emsp;
+thumbsup: :thumbsup: &emsp;
+
 1st_place_medal: :1st_place_medal: &emsp;
 2nd_place_medal: :2nd_place_medal: &emsp;
 3rd_place_medal: :3rd_place_medal: &emsp;
@@ -52,6 +55,8 @@ leftwards_arrow_with_hook: :leftwards_arrow_with_hook: &emsp;
 repeat: :repeat: &emsp;
 repeat_one: :repeat_one: &emsp;
 rewind: :rewind: &emsp;
+fast_forward: :fast_forward: &emsp;
+play_or_pause_button: :play_or_pause_button: &emsp;
 
 <br>
 
@@ -210,7 +215,6 @@ blowfish: :blowfish: &emsp;
 blue_book: :blue_book: &emsp; 
 blue_car: :blue_car: &emsp;
 blue_square: :blue_square: &emsp; 
-blush: :blush: &emsp; 
 boar: :boar: &emsp; 
 boat: :boat: &emsp; 
 bolivia: :bolivia: &emsp; 
@@ -696,6 +700,10 @@ yum: :yum: &emsp;
 zany_face: :zany_face: &emsp;
 zipper_mouth_face: :zipper_mouth_face: &emsp;
 fearful: :fearful: &emsp;
+unamused: :unamused: &emsp;
+upside_down_face: :upside_down_face: &emsp;
+weary: :weary: &emsp;
+blush: :blush: &emsp; 
 
 <br>
 
@@ -743,7 +751,6 @@ fallen_leaf: :fallen_leaf: &emsp;
 
 farmer: :farmer: &emsp; 
 faroe_islands: :faroe_islands: &emsp; 
-fast_forward: :fast_forward: &emsp;
 fax: :fax: &emsp;
 feelsgood: :feelsgood: &emsp;
 feet: :feet: &emsp;
@@ -1468,7 +1475,6 @@ place_of_worship: :place_of_worship: &emsp;
 <br>
 
 plate_with_cutlery: :plate_with_cutlery: &emsp;
-play_or_pause_button: :play_or_pause_button: &emsp;
 point_down: :point_down: &emsp;
 point_left: :point_left: &emsp;
 point_right: :point_right: &emsp;
@@ -1855,8 +1861,6 @@ thermometer: :thermometer: &emsp;
 thought_balloon: :thought_balloon: &emsp;
 thread: :thread: &emsp;
 three: :three: &emsp;
-thumbsdown: :thumbsdown: &emsp;
-thumbsup: :thumbsup: &emsp;
 ticket: :ticket: &emsp;
 
 <br>
@@ -1945,14 +1949,12 @@ uganda: :uganda: &emsp;
 uk: :uk: &emsp;
 ukraine: :ukraine: &emsp;
 umbrella: :umbrella: &emsp;
-unamused: :unamused: &emsp;
 underage: :underage: &emsp;
 unicorn: :unicorn: &emsp;
 united_arab_emirates: :united_arab_emirates: &emsp;
 united_nations: :united_nations: &emsp;
 unlock: :unlock: &emsp;
 up: :up: &emsp;
-upside_down_face: :upside_down_face: &emsp;
 uruguay: :uruguay: &emsp;
 us: :us: &emsp;
 us_outlying_islands: :us_outlying_islands: &emsp;
@@ -2009,7 +2011,6 @@ waxing_gibbous_moon: :waxing_gibbous_moon: &emsp;
 <br>
 
 wc: :wc: &emsp;
-weary: :weary: &emsp;
 wedding: :wedding: &emsp;
 weight_lifting: :weight_lifting: &emsp;
 weight_lifting_man: :weight_lifting_man: &emsp;
