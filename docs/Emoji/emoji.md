@@ -1,4 +1,4 @@
-### 说明
+### Emoji
 本文为 `emoji` 图标展示文章，学习者请绕过
 
 ?> 用法： 100 写成 `:100:`， &#58;100:
@@ -27,54 +27,6 @@ abcd: :abcd: &emsp;
 
 <br>
 
-abacus: :abacus: &emsp;
-accept: :accept: &emsp;
-adhesive_bandage: :adhesive_bandage: &emsp;
-aerial_tramway: :aerial_tramway: &emsp;
-airplane: :airplane: &emsp;
-alarm_clock: :alarm_clock: &emsp;
-alembic: :alembic: &emsp;
-alien: :alien: &emsp;
-ambulance: :ambulance: &emsp;
-amphora: :amphora: &emsp;
-anchor: :anchor: &emsp;
-
-<br>
-
-albania: :albania: &emsp;
-armenia: :armenia: &emsp;
-andorra: :andorra: &emsp;
-aland_islands: :aland_islands: &emsp;
-afghanistan: :afghanistan: &emsp;
-algeria: :algeria: &emsp;
-american_samoa: :american_samoa: &emsp;
-antarctica: :antarctica: &emsp;
-angola: :angola: &emsp;
-anguilla: :anguilla: &emsp;
-antigua_barbuda: :antigua_barbuda: &emsp;
-argentina: :argentina: &emsp;
-aruba: :aruba: &emsp;
-ascension_island: :ascension_island: &emsp;
-australia: :australia: &emsp;
-austria: :austria: &emsp;
-
-<br>
-
-adult: :adult: &emsp;
-angel: :angel: &emsp;
-artist: :artist: &emsp;
-astronaut: :astronaut: &emsp;
-anger: :anger: &emsp;
-angry: :angry: &emsp;
-anguished: :anguished: &emsp;
-ant: :ant: &emsp;
-apple: :apple: &emsp;
-aquarius: :aquarius: &emsp;
-aries: :aries: &emsp;
-
-
-<br>
-
 arrow_backward: :arrow_backward: &emsp;
 arrow_double_down: :arrow_double_down: &emsp;
 arrow_double_up: :arrow_double_up: &emsp;
@@ -97,9 +49,53 @@ arrows_clockwise: :arrows_clockwise: &emsp;
 arrows_counterclockwise: :arrows_counterclockwise: &emsp;
 left_right_arrow: :left_right_arrow: &emsp;
 leftwards_arrow_with_hook: :leftwards_arrow_with_hook: &emsp;
+repeat: :repeat: &emsp;
+repeat_one: :repeat_one: &emsp;
+rewind: :rewind: &emsp;
 
 <br>
 
+albania: :albania: &emsp;
+armenia: :armenia: &emsp;
+andorra: :andorra: &emsp;
+aland_islands: :aland_islands: &emsp;
+afghanistan: :afghanistan: &emsp;
+algeria: :algeria: &emsp;
+american_samoa: :american_samoa: &emsp;
+antarctica: :antarctica: &emsp;
+angola: :angola: &emsp;
+anguilla: :anguilla: &emsp;
+antigua_barbuda: :antigua_barbuda: &emsp;
+argentina: :argentina: &emsp;
+aruba: :aruba: &emsp;
+ascension_island: :ascension_island: &emsp;
+australia: :australia: &emsp;
+austria: :austria: &emsp;
+
+<br>
+
+abacus: :abacus: &emsp;
+accept: :accept: &emsp;
+adhesive_bandage: :adhesive_bandage: &emsp;
+aerial_tramway: :aerial_tramway: &emsp;
+airplane: :airplane: &emsp;
+alarm_clock: :alarm_clock: &emsp;
+alembic: :alembic: &emsp;
+alien: :alien: &emsp;
+ambulance: :ambulance: &emsp;
+amphora: :amphora: &emsp;
+anchor: :anchor: &emsp;
+adult: :adult: &emsp;
+angel: :angel: &emsp;
+artist: :artist: &emsp;
+astronaut: :astronaut: &emsp;
+anger: :anger: &emsp;
+angry: :angry: &emsp;
+anguished: :anguished: &emsp;
+ant: :ant: &emsp;
+apple: :apple: &emsp;
+aquarius: :aquarius: &emsp;
+aries: :aries: &emsp;
 art: :art: &emsp;
 articulated_lorry: :articulated_lorry: &emsp;
 artificial_satellite: :artificial_satellite: &emsp;
@@ -118,6 +114,7 @@ azerbaijan: :azerbaijan: &emsp;
 ### B
 
 b: :b: &emsp;
+
 baby: :baby: &emsp;
 baby_bottle: :baby_bottle: &emsp;
 baby_chick: :baby_chick: &emsp;
@@ -134,9 +131,6 @@ bahrain: :bahrain: &emsp;
 balance_scale: :balance_scale: &emsp;
 bald_man: :bald_man: &emsp;
 bald_woman: :bald_woman: &emsp;
-
-<br>
-
 ballet_shoes: :ballet_shoes: &emsp;
 balloon: :balloon: &emsp;
 ballot_box: :ballot_box: &emsp;
@@ -196,11 +190,7 @@ biohazard: :biohazard: &emsp;
 bird: :bird: &emsp;
 birthday: :birthday: &emsp;
 black_circle: :black_circle: &emsp;
-
-<br>
-
 black_flag: :black_flag: &emsp;
-black_heart: :black_heart: &emsp;
 black_joker: :black_joker: &emsp;
 black_large_square: :black_large_square: &emsp;
 black_medium_small_square: :black_medium_small_square: &emsp;
@@ -218,8 +208,7 @@ blonde_woman: :blonde_woman: &emsp;
 blossom: :blossom: &emsp; 
 blowfish: :blowfish: &emsp; 
 blue_book: :blue_book: &emsp; 
-blue_car: :blue_car: &emsp; 
-blue_heart: :blue_heart: &emsp; 
+blue_car: :blue_car: &emsp;
 blue_square: :blue_square: &emsp; 
 blush: :blush: &emsp; 
 boar: :boar: &emsp; 
@@ -263,10 +252,8 @@ briefcase: :briefcase: &emsp;
 british_indian_ocean_territory: :british_indian_ocean_territory: &emsp; 
 british_virgin_islands: :british_virgin_islands: &emsp; 
 broccoli: :broccoli: &emsp; 
-broken_heart: :broken_heart: &emsp; 
 broom: :broom: &emsp; 
 brown_circle: :brown_circle: &emsp; 
-brown_heart: :brown_heart: &emsp;
 
 <br>
 
@@ -280,9 +267,6 @@ bullettrain_front: :bullettrain_front: &emsp;
 bullettrain_side: :bullettrain_side: &emsp; 
 burkina_faso: :burkina_faso: &emsp; 
 burrito: :burrito: &emsp;
-
-<br>
-
 burundi: :burundi: &emsp; 
 bus: :bus: &emsp; 
 business_suit_levitating: :business_suit_levitating: &emsp; 
@@ -295,6 +279,33 @@ butterfly: :butterfly: &emsp;
 <br>
 
 ## C
+
+clock1: :clock1: &emsp;
+clock130: :clock130: &emsp;
+clock2: :clock2: &emsp;
+clock230: :clock230: &emsp;
+clock3: :clock3: &emsp;
+clock330: :clock330: &emsp;
+clock4: :clock4: &emsp;
+clock430: :clock430: &emsp;
+clock5: :clock5: &emsp;
+clock530: :clock530: &emsp;
+clock6: :clock6: &emsp;
+clock630: :clock630: &emsp;
+clock7: :clock7: &emsp;
+clock730: :clock730: &emsp;
+clock8: :clock8: &emsp;
+clock830: :clock830: &emsp;
+clock9: :clock9: &emsp;
+clock930: :clock930: &emsp; 
+clock10: :clock10: &emsp;
+clock1030: :clock1030: &emsp;
+clock11: :clock11: &emsp;
+clock1130: :clock1130: &emsp;
+clock12: :clock12: &emsp;
+clock1230: :clock1230: &emsp;
+
+<br>
 
 cactus: :cactus: &emsp; 
 cake: :cake: &emsp; 
@@ -310,9 +321,6 @@ camping: :camping: &emsp;
 canada: :canada: &emsp; 
 canary_islands: :canary_islands: &emsp; 
 cancer: :cancer: &emsp; 
-
-<br>
-
 candle: :candle: &emsp; 
 candy: :candy: &emsp; 
 canned_food: :canned_food: &emsp; 
@@ -337,9 +345,6 @@ cayman_islands: :cayman_islands: &emsp;
 cd: :cd: &emsp;
 central_african_republic: :central_african_republic: &emsp;
 ceuta_melilla: :ceuta_melilla: &emsp;
-
-<br>
-
 chad: :chad: &emsp;
 chains: :chains: &emsp;
 chair: :chair: &emsp;
@@ -385,36 +390,6 @@ climbing_woman: :climbing_woman: &emsp;
 clinking_glasses: :clinking_glasses: &emsp;
 clipboard: :clipboard: &emsp;
 clipperton_island: :clipperton_island: &emsp;
-
-<br>
-
-clock1: :clock1: &emsp;
-clock130: :clock130: &emsp;
-clock2: :clock2: &emsp;
-clock230: :clock230: &emsp;
-clock3: :clock3: &emsp;
-clock330: :clock330: &emsp;
-clock4: :clock4: &emsp;
-clock430: :clock430: &emsp;
-clock5: :clock5: &emsp;
-clock530: :clock530: &emsp;
-clock6: :clock6: &emsp;
-clock630: :clock630: &emsp;
-clock7: :clock7: &emsp;
-clock730: :clock730: &emsp;
-clock8: :clock8: &emsp;
-clock830: :clock830: &emsp;
-clock9: :clock9: &emsp;
-clock930: :clock930: &emsp; 
-clock10: :clock10: &emsp;
-clock1030: :clock1030: &emsp;
-clock11: :clock11: &emsp;
-clock1130: :clock1130: &emsp;
-clock12: :clock12: &emsp;
-clock1230: :clock1230: &emsp;
-
-<br>
-
 closed_book: :closed_book: &emsp;
 closed_lock_with_key: :closed_lock_with_key: &emsp;
 closed_umbrella: :closed_umbrella: &emsp;
@@ -423,11 +398,7 @@ cloud_with_lightning: :cloud_with_lightning: &emsp;
 cloud_with_lightning_and_rain: :cloud_with_lightning_and_rain: &emsp;
 cloud_with_rain: :cloud_with_rain: &emsp;
 cloud_with_snow: :cloud_with_snow: &emsp;
-clown_face: :clown_face: &emsp;
 clubs: :clubs: &emsp;
-
-<br>
-
 cn: :cn: &emsp;
 coat: :coat: &emsp;
 cocktail: :cocktail: &emsp;
@@ -435,8 +406,6 @@ coconut: :coconut: &emsp;
 cocos_islands: :cocos_islands: &emsp;
 coffee: :coffee: &emsp;
 coffin: :coffin: &emsp;
-cold_face: :cold_face: &emsp;
-cold_sweat: :cold_sweat: &emsp;
 collision: :collision: &emsp;
 colombia: :colombia: &emsp;
 
@@ -448,8 +417,6 @@ compass: :compass: &emsp;
 computer: :computer: &emsp;
 computer_mouse: :computer_mouse: &emsp;
 confetti_ball: :confetti_ball: &emsp;
-confounded: :confounded: &emsp;
-confused: :confused: &emsp;
 congo_brazzaville: :congo_brazzaville: &emsp;
 congo_kinshasa: :congo_kinshasa: &emsp;
 congratulations: :congratulations: &emsp;
@@ -475,19 +442,15 @@ couch_and_lamp: :couch_and_lamp: &emsp;
 couple: :couple: &emsp;
 couple_with_heart: :couple_with_heart: &emsp;
 couple_with_heart_man_man: :couple_with_heart_man_man: &emsp;
-
-<br>
-
 couple_with_heart_woman_man: :couple_with_heart_woman_man: &emsp; 
 couple_with_heart_woman_woman: :couple_with_heart_woman_woman: &emsp; 
 couplekiss: :couplekiss: &emsp; 
 couplekiss_man_man: :couplekiss_man_man: &emsp; 
 couplekiss_man_woman: :couplekiss_man_woman: &emsp; 
 couplekiss_woman_woman: :couplekiss_woman_woman: &emsp; 
-cow: :cow: &emsp; 
-cow2: :cow2: &emsp; 
-cowboy_hat_face: :cowboy_hat_face: &emsp; 
-crab: :crab: &emsp; 
+cow: :cow: &emsp;
+cow2: :cow2: &emsp;
+crab: :crab: &emsp;
 crayon: :crayon: &emsp;
 
 <br>
@@ -502,18 +465,13 @@ croissant: :croissant: &emsp;
 crossed_fingers: :crossed_fingers: &emsp; 
 crossed_flags: :crossed_flags: &emsp; 
 crossed_swords: :crossed_swords: &emsp; 
-crown: :crown: &emsp; 
-cry: :cry: &emsp; 
-crying_cat_face: :crying_cat_face: &emsp; 
+crown: :crown: &emsp;
 crystal_ball: :crystal_ball: &emsp; 
 cuba: :cuba: &emsp; 
 cucumber: :cucumber: &emsp; 
 cup_with_straw: :cup_with_straw: &emsp; 
 cupcake: :cupcake: &emsp; 
 cupid: :cupid: &emsp;
-
-<br>
-
 curacao: :curacao: &emsp; 
 curling_stone: :curling_stone: &emsp; 
 curly_haired_man: :curly_haired_man: &emsp; 
@@ -521,7 +479,6 @@ curly_haired_woman: :curly_haired_woman: &emsp;
 curly_loop: :curly_loop: &emsp; 
 currency_exchange: :currency_exchange: &emsp; 
 curry: :curry: &emsp; 
-cursing_face: :cursing_face: &emsp; 
 custard: :custard: &emsp; 
 customs: :customs: &emsp; 
 cut_of_meat: :cut_of_meat: &emsp; 
@@ -544,9 +501,6 @@ dart: :dart: &emsp;
 dash: :dash: &emsp; 
 date: :date: &emsp; 
 de: :de: &emsp;
-
-<br>
-
 deaf_man: :deaf_man: &emsp;
 deaf_person: :deaf_person: &emsp;
 deaf_woman: :deaf_woman: &emsp;
@@ -562,19 +516,15 @@ detective: :detective: &emsp;
 diamond_shape_with_a_dot_inside: :diamond_shape_with_a_dot_inside: &emsp;
 diamonds: :diamonds: &emsp;
 diego_garcia: :diego_garcia: &emsp;
-disappointed: :disappointed: &emsp;
-disappointed_relieved: :disappointed_relieved: &emsp;
 diving_mask: :diving_mask: &emsp;
 
 <br>
 
 diya_lamp: :diya_lamp: &emsp;
 dizzy: :dizzy: &emsp;
-dizzy_face: :dizzy_face: &emsp;
 djibouti: :djibouti: &emsp;
 dna: :dna: &emsp;
 do_not_litter: :do_not_litter: &emsp;
-dog: :dog: &emsp;
 dog2: :dog2: &emsp;
 dollar: :dollar: &emsp;
 dolls: :dolls: &emsp;
@@ -587,11 +537,7 @@ dove: :dove: &emsp;
 dragon: :dragon: &emsp;
 dragon_face: :dragon_face: &emsp;
 dress: :dress: &emsp;
-
-<br>
-
 dromedary_camel: :dromedary_camel: &emsp;
-drooling_face: :drooling_face: &emsp;
 drop_of_blood: :drop_of_blood: &emsp;
 droplet: :droplet: &emsp;
 drum: :drum: &emsp;
@@ -611,9 +557,6 @@ earth_africa: :earth_africa: &emsp;
 earth_americas: :earth_americas: &emsp;
 earth_asia: :earth_asia: &emsp;
 ecuador: :ecuador: &emsp;
-
-<br>
-
 egg: :egg: &emsp;
 eggplant: :eggplant: &emsp;
 egypt: :egypt: &emsp;
@@ -646,13 +589,8 @@ euro: :euro: &emsp;
 european_castle: :european_castle: &emsp;
 european_post_office: :european_post_office: &emsp;
 european_union: :european_union: &emsp;
-
-<br>
-
 evergreen_tree: :evergreen_tree: &emsp;
 exclamation: :exclamation: &emsp;
-exploding_head: :exploding_head: &emsp;
-expressionless: :expressionless: &emsp;
 eye: :eye: &emsp;
 eye_speech_bubble: :eye_speech_bubble: &emsp;
 eyeglasses: :eyeglasses: &emsp;
@@ -662,21 +600,105 @@ eyes: :eyes: &emsp;
 
 ### F
 
+clown_face: :clown_face: &emsp;
+cold_face: :cold_face: &emsp;
+cold_sweat: :cold_sweat: &emsp;
+confounded: :confounded: &emsp;
+confused: :confused: &emsp;
+cowboy_hat_face: :cowboy_hat_face: &emsp; 
+cry: :cry: &emsp; 
+crying_cat_face: :crying_cat_face: &emsp;
+cursing_face: :cursing_face: &emsp;
+disappointed: :disappointed: &emsp;
+disappointed_relieved: :disappointed_relieved: &emsp;
+dizzy_face: :dizzy_face: &emsp;
+dog: :dog: &emsp;
+drooling_face: :drooling_face: &emsp;
+expressionless: :expressionless: &emsp;
 face_with_head_bandage: :face_with_head_bandage: &emsp;
 face_with_thermometer: :face_with_thermometer: &emsp;
-facepalm: :facepalm: &emsp;
-facepunch: :facepunch: &emsp;
-factory: :factory: &emsp;
-factory_worker: :factory_worker: &emsp;
-fairy: :fairy: &emsp;
-fairy_man: :fairy_man: &emsp;
-fairy_woman: :fairy_woman: &emsp;
+fox_face: :fox_face: &emsp;
+flushed: :flushed: &emsp;
+frowning_face: :frowning_face: &emsp;
+full_moon_with_face: :full_moon_with_face: &emsp;
+grimacing: :grimacing: &emsp;
+grin: :grin: &emsp;
+grinning: :grinning: &emsp;
+hand_over_mouth: :hand_over_mouth: &emsp;
+hugs: :hugs: &emsp;
+hushed: :hushed: &emsp;
+innocent: :innocent: &emsp;
+jack_o_lantern: :jack_o_lantern: &emsp;
+joy: :joy: &emsp;
+joy_cat: :joy_cat: &emsp;
+kissing: :kissing: &emsp;
+kissing_cat: :kissing_cat: &emsp;
+kissing_closed_eyes: :kissing_closed_eyes: &emsp;
+kissing_heart: :kissing_heart: &emsp;
+kissing_smiling_eyes: :kissing_smiling_eyes: &emsp;
+laughing: :laughing: &emsp;
+lion: :lion: &emsp;
+lying_face: :lying_face: &emsp;
+mask: :mask: &emsp;
+money_mouth_face: :money_mouth_face: &emsp;
+monkey_face: :monkey_face: &emsp;
+monocle_face: :monocle_face: &emsp;
+sleeping_bed: :sleeping_bed: &emsp;
+sleeping: :sleeping: &emsp;
+sleepy: :sleepy: &emsp;
+slightly_frowning_face: :slightly_frowning_face: &emsp;
+slightly_smiling_face: :slightly_smiling_face: &emsp;
+smile: :smile: &emsp;
+smile_cat: :smile_cat: &emsp;
+smiley: :smiley: &emsp;
+smiley_cat: :smiley_cat: &emsp;
+smiling_face_with_three_hearts: :smiling_face_with_three_hearts: &emsp;
+smiling_imp: :smiling_imp: &emsp;
+smirk: :smirk: &emsp;
+heart_eyes: :heart_eyes: &emsp;
+heart_eyes_cat: :heart_eyes_cat: &emsp;
+smirk_cat: :smirk_cat: &emsp;
+sneezing_face: :sneezing_face: &emsp;
+star_struck: :star_struck: &emsp;
+stuck_out_tongue: :stuck_out_tongue: &emsp;
+stuck_out_tongue_closed_eyes: :stuck_out_tongue_closed_eyes: &emsp;
+stuck_out_tongue_winking_eye: :stuck_out_tongue_winking_eye: &emsp;
+sun_with_face: :sun_with_face: &emsp;
+sweat_smile: :sweat_smile: &emsp;
+partying_face: :partying_face: &emsp;
+pensive: :pensive: &emsp;
+persevere: :persevere: &emsp;
+pig: :pig: &emsp;
+pleading_face: :pleading_face: &emsp;
+pouting_cat: :pouting_cat: &emsp;
+rice_cracker: :rice_cracker: &emsp;
+rofl: :rofl: &emsp;
+roll_eyes: :roll_eyes: &emsp;
+relaxed: :relaxed: &emsp;
+relieved: :relieved: &emsp;
+exploding_head: :exploding_head: &emsp;
+neutral_face: :neutral_face: &emsp;
+no_mouth: :no_mouth: &emsp;
+raised_eyebrow: :raised_eyebrow: &emsp;
+satisfied: :satisfied: &emsp;
+shushing_face: :shushing_face: &emsp;
+sunglasses: :sunglasses: &emsp;
+thinking: :thinking: &emsp;
+tired_face: :tired_face: &emsp;
+triumph: :triumph: &emsp;
+vomiting_face: :vomiting_face: &emsp;
+wink: :wink: &emsp;
+wolf: :wolf: &emsp;
+woozy_face: :woozy_face: &emsp;
+worried: :worried: &emsp;
+yawning_face: :yawning_face: &emsp;
+yum: :yum: &emsp;
+zany_face: :zany_face: &emsp;
+zipper_mouth_face: :zipper_mouth_face: &emsp;
+fearful: :fearful: &emsp;
 
 <br>
 
-falafel: :falafel: &emsp;
-falkland_islands: :falkland_islands: &emsp;
-fallen_leaf: :fallen_leaf: &emsp;
 family: :family: &emsp;
 family_man_boy: :family_man_boy: &emsp;
 family_man_boy_boy: :family_man_boy_boy: &emsp;
@@ -688,9 +710,6 @@ family_man_man_boy_boy: :family_man_man_boy_boy: &emsp;
 family_man_man_girl: :family_man_man_girl: &emsp;
 family_man_man_girl_boy: :family_man_man_girl_boy: &emsp;
 family_man_man_girl_girl: :family_man_man_girl_girl: &emsp;
-
-<br>
-
 family_man_woman_boy: :family_man_woman_boy: &emsp; 
 family_man_woman_boy_boy: :family_man_woman_boy_boy: &emsp; 
 family_man_woman_girl: :family_man_woman_girl: &emsp; 
@@ -709,20 +728,29 @@ family_woman_woman_girl_girl: :family_woman_woman_girl_girl: &emsp;
 
 <br>
 
+facepalm: :facepalm: &emsp;
+facepunch: :facepunch: &emsp;
+factory: :factory: &emsp;
+factory_worker: :factory_worker: &emsp;
+fairy: :fairy: &emsp;
+fairy_man: :fairy_man: &emsp;
+fairy_woman: :fairy_woman: &emsp;
+falafel: :falafel: &emsp;
+falkland_islands: :falkland_islands: &emsp;
+fallen_leaf: :fallen_leaf: &emsp;
+
+<br>
+
 farmer: :farmer: &emsp; 
 faroe_islands: :faroe_islands: &emsp; 
 fast_forward: :fast_forward: &emsp;
 fax: :fax: &emsp;
-fearful: :fearful: &emsp;
 feelsgood: :feelsgood: &emsp;
 feet: :feet: &emsp;
 female_detective: :female_detective: &emsp;
 female_sign: :female_sign: &emsp;
 ferris_wheel: :ferris_wheel: &emsp;
 ferry: :ferry: &emsp;
-
-<br>
-
 field_hockey: :field_hockey: &emsp;
 fiji: :fiji: &emsp;
 file_cabinet: :file_cabinet: &emsp;
@@ -753,9 +781,6 @@ fist_right: :fist_right: &emsp;
 five: :five: &emsp;
 flags: :flags: &emsp;
 flamingo: :flamingo: &emsp;
-
-<br>
-
 flashlight: :flashlight: &emsp;
 flat_shoe: :flat_shoe: &emsp;
 fleur_de_lis: :fleur_de_lis: &emsp;
@@ -764,7 +789,6 @@ flight_departure: :flight_departure: &emsp;
 flipper: :flipper: &emsp;
 floppy_disk: :floppy_disk: &emsp;
 flower_playing_cards: :flower_playing_cards: &emsp;
-flushed: :flushed: &emsp;
 flying_disc: :flying_disc: &emsp;
 flying_saucer: :flying_saucer: &emsp;
 fog: :fog: &emsp;
@@ -781,7 +805,6 @@ fountain: :fountain: &emsp;
 fountain_pen: :fountain_pen: &emsp;
 four: :four: &emsp;
 four_leaf_clover: :four_leaf_clover: &emsp;
-fox_face: :fox_face: &emsp;
 fr: :fr: &emsp;
 framed_picture: :framed_picture: &emsp;
 free: :free: &emsp;
@@ -789,21 +812,16 @@ french_guiana: :french_guiana: &emsp;
 french_polynesia: :french_polynesia: &emsp;
 french_southern_territories: :french_southern_territories: &emsp;
 fried_egg: :fried_egg: &emsp;
-
-<br>
-
 fried_shrimp: :fried_shrimp: &emsp;
 fries: :fries: &emsp;
 frog: :frog: &emsp;
 frowning: :frowning: &emsp;
-frowning_face: :frowning_face: &emsp;
 frowning_man: :frowning_man: &emsp;
 frowning_person: :frowning_person: &emsp;
 frowning_woman: :frowning_woman: &emsp;
 fu: :fu: &emsp;
 fuelpump: :fuelpump: &emsp;
 full_moon: :full_moon: &emsp;
-full_moon_with_face: :full_moon_with_face: &emsp;
 funeral_urn: :funeral_urn: &emsp;
 
 <br>
@@ -824,12 +842,8 @@ genie_woman: :genie_woman: &emsp;
 georgia: :georgia: &emsp;
 ghana: :ghana: &emsp;
 ghost: :ghost: &emsp;
-
-<br>
-
 gibraltar: :gibraltar: &emsp;
 gift: :gift: &emsp;
-gift_heart: :gift_heart: &emsp;
 giraffe: :giraffe: &emsp;
 girl: :girl: &emsp;
 globe_with_meridians: :globe_with_meridians: &emsp;
@@ -852,21 +866,14 @@ greece: :greece: &emsp;
 green_apple: :green_apple: &emsp;
 green_book: :green_book: &emsp;
 green_circle: :green_circle: &emsp;
-green_heart: :green_heart: &emsp;
 green_salad: :green_salad: &emsp;
 green_square: :green_square: &emsp;
 greenland: :greenland: &emsp;
 grenada: :grenada: &emsp;
 grey_exclamation: :grey_exclamation: &emsp;
 grey_question: :grey_question: &emsp;
-grimacing: :grimacing: &emsp;
-grin: :grin: &emsp;
-grinning: :grinning: &emsp;
 guadeloupe: :guadeloupe: &emsp;
 guam: :guam: &emsp;
-
-<br>
-
 guard: :guard: &emsp;
 guardsman: :guardsman: &emsp;
 guardswoman: :guardswoman: &emsp;
@@ -883,6 +890,26 @@ guyana: :guyana: &emsp;
 
 ### H
 
+broken_heart: :broken_heart: &emsp;
+brown_heart: :brown_heart: &emsp;
+gift_heart: :gift_heart: &emsp;
+green_heart: :green_heart: &emsp;
+orange_heart: :orange_heart: &emsp;
+purple_heart: :purple_heart: &emsp;
+sparkling_heart: :sparkling_heart: &emsp;
+white_heart: :white_heart: &emsp;
+yellow_heart: :yellow_heart: &emsp;
+black_heart: :black_heart: &emsp;
+blue_heart: :blue_heart: &emsp;
+heart: :heart: &emsp;
+heartbeat: :heartbeat: &emsp;
+heartpulse: :heartpulse: &emsp;
+hearts: :hearts: &emsp;
+heart_decoration: :heart_decoration: &emsp;
+heavy_heart_exclamation: :heavy_heart_exclamation: &emsp;
+
+<br>
+
 haircut: :haircut: &emsp;
 haircut_man: :haircut_man: &emsp;
 haircut_woman: :haircut_woman: &emsp;
@@ -893,7 +920,6 @@ hammer_and_pick: :hammer_and_pick: &emsp;
 hammer_and_wrench: :hammer_and_wrench: &emsp;
 hamster: :hamster: &emsp;
 hand: :hand: &emsp;
-hand_over_mouth: :hand_over_mouth: &emsp;
 handbag: :handbag: &emsp;
 handball_person: :handball_person: &emsp;
 handshake: :handshake: &emsp;
@@ -908,21 +934,10 @@ headphones: :headphones: &emsp;
 health_worker: :health_worker: &emsp;
 hear_no_evil: :hear_no_evil: &emsp;
 heard_mcdonald_islands: :heard_mcdonald_islands: &emsp;
-heart: :heart: &emsp;
-heart_decoration: :heart_decoration: &emsp;
-heart_eyes: :heart_eyes: &emsp;
-heart_eyes_cat: :heart_eyes_cat: &emsp;
-heartbeat: :heartbeat: &emsp;
-heartpulse: :heartpulse: &emsp;
-hearts: :hearts: &emsp;
 heavy_check_mark: :heavy_check_mark: &emsp;
-
-<br>
-
 heavy_division_sign: :heavy_division_sign: &emsp;
 heavy_dollar_sign: :heavy_dollar_sign: &emsp;
 heavy_exclamation_mark: :heavy_exclamation_mark: &emsp;
-heavy_heart_exclamation: :heavy_heart_exclamation: &emsp;
 heavy_minus_sign: :heavy_minus_sign: &emsp;
 heavy_multiplication_x: :heavy_multiplication_x: &emsp;
 heavy_plus_sign: :heavy_plus_sign: &emsp;
@@ -957,10 +972,8 @@ hourglass_flowing_sand: :hourglass_flowing_sand: &emsp;
 house: :house: &emsp;
 house_with_garden: :house_with_garden: &emsp;
 houses: :houses: &emsp;
-hugs: :hugs: &emsp;
 hungary: :hungary: &emsp;
 hurtrealbad: :hurtrealbad: &emsp;
-hushed: :hushed: &emsp;
 
 <br>
 
@@ -985,7 +998,6 @@ indonesia: :indonesia: &emsp;
 infinity: :infinity: &emsp;
 information_desk_person: :information_desk_person: &emsp;
 information_source: :information_source: &emsp;
-innocent: :innocent: &emsp;
 interrobang: :interrobang: &emsp;
 iphone: :iphone: &emsp;
 iran: :iran: &emsp;
@@ -1000,7 +1012,6 @@ izakaya_lantern: :izakaya_lantern: &emsp;
 
 ### J
 
-jack_o_lantern: :jack_o_lantern: &emsp;
 jamaica: :jamaica: &emsp;
 japan: :japan: &emsp;
 japanese_castle: :japanese_castle: &emsp;
@@ -1010,8 +1021,6 @@ jeans: :jeans: &emsp;
 jersey: :jersey: &emsp;
 jigsaw: :jigsaw: &emsp;
 jordan: :jordan: &emsp;
-joy: :joy: &emsp;
-joy_cat: :joy_cat: &emsp;
 joystick: :joystick: &emsp;
 jp: :jp: &emsp;
 judge: :judge: &emsp;
@@ -1032,14 +1041,6 @@ kick_scooter: :kick_scooter: &emsp;
 kimono: :kimono: &emsp;
 kiribati: :kiribati: &emsp;
 kiss: :kiss: &emsp;
-kissing: :kissing: &emsp;
-
-<br>
-
-kissing_cat: :kissing_cat: &emsp;
-kissing_closed_eyes: :kissing_closed_eyes: &emsp;
-kissing_heart: :kissing_heart: &emsp;
-kissing_smiling_eyes: :kissing_smiling_eyes: &emsp;
 kite: :kite: &emsp;
 kiwi_fruit: :kiwi_fruit: &emsp;
 kneeling_man: :kneeling_man: &emsp;
@@ -1069,12 +1070,8 @@ last_quarter_moon: :last_quarter_moon: &emsp;
 last_quarter_moon_with_face: :last_quarter_moon_with_face: &emsp;
 latin_cross: :latin_cross: &emsp;
 latvia: :latvia: &emsp;
-laughing: :laughing: &emsp;
 leafy_green: :leafy_green: &emsp;
 leaves: :leaves: &emsp;
-
-<br>
-
 lebanon: :lebanon: &emsp;
 ledger: :ledger: &emsp;
 left_luggage: :left_luggage: &emsp;
@@ -1094,7 +1091,6 @@ libya: :libya: &emsp;
 liechtenstein: :liechtenstein: &emsp;
 light_rail: :light_rail: &emsp;
 link: :link: &emsp;
-lion: :lion: &emsp;
 lips: :lips: &emsp;
 lipstick: :lipstick: &emsp;
 lithuania: :lithuania: &emsp;
@@ -1103,9 +1099,6 @@ llama: :llama: &emsp;
 lobster: :lobster: &emsp;
 lock: :lock: &emsp;
 lock_with_ink_pen: :lock_with_ink_pen: &emsp;
-
-<br>
-
 lollipop: :lollipop: &emsp;
 loop: :loop: &emsp;
 lotion_bottle: :lotion_bottle: &emsp;
@@ -1120,7 +1113,6 @@ love_you_gesture: :love_you_gesture: &emsp;
 low_brightness: :low_brightness: &emsp;
 luggage: :luggage: &emsp;
 luxembourg: :luxembourg: &emsp;
-lying_face: :lying_face: &emsp;
 
 <br>
 
@@ -1157,9 +1149,6 @@ man_astronaut: :man_astronaut: &emsp;
 man_cartwheeling: :man_cartwheeling: &emsp;
 man_cook: :man_cook: &emsp;
 man_dancing: :man_dancing: &emsp;
-
-<br>
-
 man_facepalming: :man_facepalming: &emsp;
 man_factory_worker: :man_factory_worker: &emsp;
 man_farmer: :man_farmer: &emsp;
@@ -1199,7 +1188,6 @@ maple_leaf: :maple_leaf: &emsp;
 marshall_islands: :marshall_islands: &emsp;
 martial_arts_uniform: :martial_arts_uniform: &emsp;
 martinique: :martinique: &emsp;
-mask: :mask: &emsp;
 massage: :massage: &emsp;
 massage_man: :massage_man: &emsp;
 massage_woman: :massage_woman: &emsp;
@@ -1227,9 +1215,6 @@ mermaid: :mermaid: &emsp;
 merman: :merman: &emsp;
 merperson: :merperson: &emsp;
 metal: :metal: &emsp;
-
-<br>
-
 metro: :metro: &emsp;
 mexico: :mexico: &emsp;
 microbe: :microbe: &emsp;
@@ -1247,13 +1232,10 @@ moldova: :moldova: &emsp;
 <br>
 
 monaco: :monaco: &emsp;
-money_mouth_face: :money_mouth_face: &emsp;
 money_with_wings: :money_with_wings: &emsp;
 moneybag: :moneybag: &emsp;
 mongolia: :mongolia: &emsp;
 monkey: :monkey: &emsp;
-monkey_face: :monkey_face: &emsp;
-monocle_face: :monocle_face: &emsp;
 monorail: :monorail: &emsp;
 montenegro: :montenegro: &emsp;
 montserrat: :montserrat: &emsp;
@@ -1261,9 +1243,6 @@ moon: :moon: &emsp;
 moon_cake: :moon_cake: &emsp;
 morocco: :morocco: &emsp;
 mortar_board: :mortar_board: &emsp;
-
-<br>
-
 mosque: :mosque: &emsp;
 mosquito: :mosquito: &emsp;
 motor_boat: :motor_boat: &emsp;
@@ -1311,12 +1290,8 @@ neckbeard: :neckbeard: &emsp;
 necktie: :necktie: &emsp;
 negative_squared_cross_mark: :negative_squared_cross_mark: &emsp;
 nepal: :nepal: &emsp;
-
-<br>
-
 nerd_face: :nerd_face: &emsp;
 netherlands: :netherlands: &emsp;
-neutral_face: :neutral_face: &emsp;
 new: :new: &emsp;
 new_caledonia: :new_caledonia: &emsp;
 new_moon: :new_moon: &emsp;
@@ -1345,10 +1320,6 @@ no_good: :no_good: &emsp;
 no_good_man: :no_good_man: &emsp;
 no_good_woman: :no_good_woman: &emsp;
 no_mobile_phones: :no_mobile_phones: &emsp;
-no_mouth: :no_mouth: &emsp;
-
-<br>
-
 no_pedestrians: :no_pedestrians: &emsp;
 no_smoking: :no_smoking: &emsp;
 non-potable_water: :non-potable_water: &emsp;
@@ -1377,9 +1348,6 @@ office_worker: :office_worker: &emsp;
 oil_drum: :oil_drum: &emsp;
 ok: :ok: &emsp;
 ok_hand: :ok_hand: &emsp;
-
-<br>
-
 ok_man: :ok_man: &emsp;
 ok_person: :ok_person: &emsp;
 ok_woman: :ok_woman: &emsp;
@@ -1405,14 +1373,10 @@ open_file_folder: :open_file_folder: &emsp;
 open_hands: :open_hands: &emsp;
 open_mouth: :open_mouth: &emsp;
 open_umbrella: :open_umbrella: &emsp;
-
-<br>
-
 ophiuchus: :ophiuchus: &emsp;
 orange: :orange: &emsp;
 orange_book: :orange_book: &emsp;
 orange_circle: :orange_circle: &emsp;
-orange_heart: :orange_heart: &emsp;
 orange_square: :orange_square: &emsp;
 orangutan: :orangutan: &emsp;
 orthodox_cross: :orthodox_cross: &emsp;
@@ -1452,7 +1416,6 @@ parking: :parking: &emsp;
 parrot: :parrot: &emsp;
 part_alternation_mark: :part_alternation_mark: &emsp;
 partly_sunny: :partly_sunny: &emsp;
-partying_face: :partying_face: &emsp;
 passenger_ship: :passenger_ship: &emsp;
 passport_control: :passport_control: &emsp;
 
@@ -1469,13 +1432,8 @@ pen: :pen: &emsp;
 pencil: :pencil: &emsp;
 pencil2: :pencil2: &emsp;
 penguin: :penguin: &emsp;
-pensive: :pensive: &emsp;
-
-<br>
-
 people_holding_hands: :people_holding_hands: &emsp;
 performing_arts: :performing_arts: &emsp;
-persevere: :persevere: &emsp;
 person_bald: :person_bald: &emsp;
 person_curly_hair: :person_curly_hair: &emsp;
 person_fencing: :person_fencing: &emsp;
@@ -1494,12 +1452,8 @@ philippines: :philippines: &emsp;
 phone: :phone: &emsp;
 pick: :pick: &emsp;
 pie: :pie: &emsp;
-pig: :pig: &emsp;
 pig2: :pig2: &emsp;
 pig_nose: :pig_nose: &emsp;
-
-<br>
-
 pill: :pill: &emsp;
 pilot: :pilot: &emsp;
 pinching_hand: :pinching_hand: &emsp;
@@ -1515,16 +1469,12 @@ place_of_worship: :place_of_worship: &emsp;
 
 plate_with_cutlery: :plate_with_cutlery: &emsp;
 play_or_pause_button: :play_or_pause_button: &emsp;
-pleading_face: :pleading_face: &emsp;
 point_down: :point_down: &emsp;
 point_left: :point_left: &emsp;
 point_right: :point_right: &emsp;
 point_up: :point_up: &emsp;
 point_up_2: :point_up_2: &emsp;
 poland: :poland: &emsp;
-
-<br>
-
 police_car: :police_car: &emsp;
 police_officer: :police_officer: &emsp;
 policeman: :policeman: &emsp;
@@ -1545,14 +1495,10 @@ pouch: :pouch: &emsp;
 poultry_leg: :poultry_leg: &emsp;
 pound: :pound: &emsp;
 pout: :pout: &emsp;
-pouting_cat: :pouting_cat: &emsp;
 pouting_face: :pouting_face: &emsp;
 pouting_man: :pouting_man: &emsp;
 pouting_woman: :pouting_woman: &emsp;
 pray: :pray: &emsp;
-
-<br>
-
 prayer_beads: :prayer_beads: &emsp;
 pregnant_woman: :pregnant_woman: &emsp;
 pretzel: :pretzel: &emsp;
@@ -1564,7 +1510,6 @@ probing_cane: :probing_cane: &emsp;
 puerto_rico: :puerto_rico: &emsp;
 punch: :punch: &emsp;
 purple_circle: :purple_circle: &emsp;
-purple_heart: :purple_heart: &emsp;
 purple_square: :purple_square: &emsp;
 purse: :purse: &emsp;
 pushpin: :pushpin: &emsp;
@@ -1591,9 +1536,6 @@ radio: :radio: &emsp;
 radio_button: :radio_button: &emsp;
 radioactive: :radioactive: &emsp;
 rage: :rage: &emsp;
-
-<br>
-
 rage1: :rage1: &emsp;
 rage2: :rage2: &emsp;
 rage3: :rage3: &emsp;
@@ -1603,7 +1545,6 @@ railway_track: :railway_track: &emsp;
 rainbow: :rainbow: &emsp;
 rainbow_flag: :rainbow_flag: &emsp;
 raised_back_of_hand: :raised_back_of_hand: &emsp;
-raised_eyebrow: :raised_eyebrow: &emsp;
 
 <br>
 
@@ -1619,9 +1560,6 @@ rat: :rat: &emsp;
 razor: :razor: &emsp;
 receipt: :receipt: &emsp;
 record_button: :record_button: &emsp;
-
-<br>
-
 recycle: :recycle: &emsp;
 red_car: :red_car: &emsp;
 red_circle: :red_circle: &emsp;
@@ -1630,19 +1568,11 @@ red_haired_man: :red_haired_man: &emsp;
 red_haired_woman: :red_haired_woman: &emsp;
 red_square: :red_square: &emsp;
 registered: :registered: &emsp;
-
-<br>
-
-relaxed: :relaxed: &emsp;
-relieved: :relieved: &emsp;
 reminder_ribbon: :reminder_ribbon: &emsp;
-repeat: :repeat: &emsp;
-repeat_one: :repeat_one: &emsp;
 rescue_worker_helmet: :rescue_worker_helmet: &emsp;
 restroom: :restroom: &emsp;
 reunion: :reunion: &emsp;
 revolving_hearts: :revolving_hearts: &emsp;
-rewind: :rewind: &emsp;
 
 <br>
 
@@ -1650,18 +1580,12 @@ rhinoceros: :rhinoceros: &emsp;
 ribbon: :ribbon: &emsp;
 rice: :rice: &emsp;
 rice_ball: :rice_ball: &emsp;
-rice_cracker: :rice_cracker: &emsp;
 rice_scene: :rice_scene: &emsp;
 right_anger_bubble: :right_anger_bubble: &emsp;
 ring: :ring: &emsp;
 ringed_planet: :ringed_planet: &emsp;
 robot: :robot: &emsp;
-
-<br>
-
 rocket: :rocket: &emsp;
-rofl: :rofl: &emsp;
-roll_eyes: :roll_eyes: &emsp;
 roll_of_paper: :roll_of_paper: &emsp;
 roller_coaster: :roller_coaster: &emsp;
 romania: :romania: &emsp;
@@ -1671,9 +1595,6 @@ rosette: :rosette: &emsp;
 rotating_light: :rotating_light: &emsp;
 round_pushpin: :round_pushpin: &emsp;
 rowboat: :rowboat: &emsp;
-
-<br>
-
 rowing_man: :rowing_man: &emsp;
 rowing_woman: :rowing_woman: &emsp;
 ru: :ru: &emsp;
@@ -1709,11 +1630,7 @@ sari: :sari: &emsp;
 sassy_man: :sassy_man: &emsp;
 sassy_woman: :sassy_woman: &emsp;
 satellite: :satellite: &emsp;
-satisfied: :satisfied: &emsp;
 saudi_arabia: :saudi_arabia: &emsp;
-
-<br>
-
 sauna_man: :sauna_man: &emsp;
 sauna_person: :sauna_person: &emsp;
 sauna_woman: :sauna_woman: &emsp;
@@ -1746,9 +1663,6 @@ seychelles: :seychelles: &emsp;
 shallow_pan_of_food: :shallow_pan_of_food: &emsp;
 shamrock: :shamrock: &emsp;
 shark: :shark: &emsp;
-
-<br>
-
 shaved_ice: :shaved_ice: &emsp;
 sheep: :sheep: &emsp;
 shell: :shell: &emsp;
@@ -1768,7 +1682,6 @@ shorts: :shorts: &emsp;
 shower: :shower: &emsp;
 shrimp: :shrimp: &emsp;
 shrug: :shrug: &emsp;
-shushing_face: :shushing_face: &emsp;
 sierra_leone: :sierra_leone: &emsp;
 signal_strength: :signal_strength: &emsp;
 singapore: :singapore: &emsp;
@@ -1778,56 +1691,30 @@ six: :six: &emsp;
 six_pointed_star: :six_pointed_star: &emsp;
 skateboard: :skateboard: &emsp;
 ski: :ski: &emsp;
-
-<br>
-
 skier: :skier: &emsp;
 skull: :skull: &emsp;
 skull_and_crossbones: :skull_and_crossbones: &emsp;
 skunk: :skunk: &emsp;
 sled: :sled: &emsp;
-sleeping: :sleeping: &emsp;
-sleeping_bed: :sleeping_bed: &emsp;
-sleepy: :sleepy: &emsp;
-slightly_frowning_face: :slightly_frowning_face: &emsp;
-slightly_smiling_face: :slightly_smiling_face: &emsp;
 slot_machine: :slot_machine: &emsp;
 sloth: :sloth: &emsp;
 slovakia: :slovakia: &emsp;
-
-<br>
-
 slovenia: :slovenia: &emsp;
 small_airplane: :small_airplane: &emsp;
 small_blue_diamond: :small_blue_diamond: &emsp;
 small_orange_diamond: :small_orange_diamond: &emsp;
 small_red_triangle: :small_red_triangle: &emsp;
 small_red_triangle_down: :small_red_triangle_down: &emsp;
-smile: :smile: &emsp;
-
-<br>
-
-smile_cat: :smile_cat: &emsp;
-smiley: :smiley: &emsp;
-smiley_cat: :smiley_cat: &emsp;
-smiling_face_with_three_hearts: :smiling_face_with_three_hearts: &emsp;
-smiling_imp: :smiling_imp: &emsp;
-smirk: :smirk: &emsp;
-smirk_cat: :smirk_cat: &emsp;
 
 <br>
 
 smoking: :smoking: &emsp;
 snail: :snail: &emsp;
 snake: :snake: &emsp;
-sneezing_face: :sneezing_face: &emsp;
 snowboarder: :snowboarder: &emsp;
 snowflake: :snowflake: &emsp;
 snowman: :snowman: &emsp;
 snowman_with_snow: :snowman_with_snow: &emsp;
-
-<br>
-
 soap: :soap: &emsp;
 sob: :sob: &emsp;
 soccer: :soccer: &emsp;
@@ -1848,12 +1735,8 @@ space_invader: :space_invader: &emsp;
 spades: :spades: &emsp;
 spaghetti: :spaghetti: &emsp;
 sparkle: :sparkle: &emsp;
-
-<br>
-
 sparkler: :sparkler: &emsp;
 sparkles: :sparkles: &emsp;
-sparkling_heart: :sparkling_heart: &emsp;
 speak_no_evil: :speak_no_evil: &emsp;
 speaker: :speaker: &emsp;
 speaking_head: :speaking_head: &emsp;
@@ -1875,9 +1758,6 @@ st_helena: :st_helena: &emsp;
 st_kitts_nevis: :st_kitts_nevis: &emsp;
 st_lucia: :st_lucia: &emsp;
 st_martin: :st_martin: &emsp;
-
-<br>
-
 st_pierre_miquelon: :st_pierre_miquelon: &emsp;
 st_vincent_grenadines: :st_vincent_grenadines: &emsp;
 stadium: :stadium: &emsp;
@@ -1888,7 +1768,6 @@ star: :star: &emsp;
 star2: :star2: &emsp;
 star_and_crescent: :star_and_crescent: &emsp;
 star_of_david: :star_of_david: &emsp;
-star_struck: :star_struck: &emsp;
 stars: :stars: &emsp;
 station: :station: &emsp;
 
@@ -1903,25 +1782,14 @@ stop_sign: :stop_sign: &emsp;
 stopwatch: :stopwatch: &emsp;
 straight_ruler: :straight_ruler: &emsp;
 strawberry: :strawberry: &emsp;
-
-<br>
-
-stuck_out_tongue: :stuck_out_tongue: &emsp;
-stuck_out_tongue_closed_eyes: :stuck_out_tongue_closed_eyes: &emsp;
-stuck_out_tongue_winking_eye: :stuck_out_tongue_winking_eye: &emsp;
 student: :student: &emsp;
 studio_microphone: :studio_microphone: &emsp;
 stuffed_flatbread: :stuffed_flatbread: &emsp;
 sudan: :sudan: &emsp;
 sun_behind_large_cloud: :sun_behind_large_cloud: &emsp;
-
-<br>
-
 sun_behind_rain_cloud: :sun_behind_rain_cloud: &emsp;
 sun_behind_small_cloud: :sun_behind_small_cloud: &emsp;
-sun_with_face: :sun_with_face: &emsp;
 sunflower: :sunflower: &emsp;
-sunglasses: :sunglasses: &emsp;
 sunny: :sunny: &emsp;
 sunrise: :sunrise: &emsp;
 sunrise_over_mountains: :sunrise_over_mountains: &emsp;
@@ -1939,9 +1807,6 @@ surfing_man: :surfing_man: &emsp;
 surfing_woman: :surfing_woman: &emsp;
 suriname: :suriname: &emsp;
 sushi: :sushi: &emsp;
-
-<br>
-
 suspect: :suspect: &emsp;
 suspension_railway: :suspension_railway: &emsp;
 svalbard_jan_mayen: :svalbard_jan_mayen: &emsp;
@@ -1949,13 +1814,9 @@ swan: :swan: &emsp;
 swaziland: :swaziland: &emsp;
 sweat: :sweat: &emsp;
 sweat_drops: :sweat_drops: &emsp;
-sweat_smile: :sweat_smile: &emsp;
 sweden: :sweden: &emsp;
 sweet_potato: :sweet_potato: &emsp;
 swim_brief: :swim_brief: &emsp;
-
-<br>
-
 swimmer: :swimmer: &emsp;
 swimming_man: :swimming_man: &emsp;
 swimming_woman: :swimming_woman: &emsp;
@@ -1978,9 +1839,6 @@ tanabata_tree: :tanabata_tree: &emsp;
 tangerine: :tangerine: &emsp;
 tanzania: :tanzania: &emsp;
 taurus: :taurus: &emsp;
-
-<br>
-
 taxi: :taxi: &emsp;
 tea: :tea: &emsp;
 teacher: :teacher: &emsp;
@@ -1990,14 +1848,10 @@ telephone: :telephone: &emsp;
 telephone_receiver: :telephone_receiver: &emsp;
 telescope: :telescope: &emsp;
 tennis: :tennis: &emsp;
-
-<br>
-
 tent: :tent: &emsp;
 test_tube: :test_tube: &emsp;
 thailand: :thailand: &emsp;
 thermometer: :thermometer: &emsp;
-thinking: :thinking: &emsp;
 thought_balloon: :thought_balloon: &emsp;
 thread: :thread: &emsp;
 three: :three: &emsp;
@@ -2015,10 +1869,6 @@ timor_leste: :timor_leste: &emsp;
 tipping_hand_man: :tipping_hand_man: &emsp;
 tipping_hand_person: :tipping_hand_person: &emsp;
 tipping_hand_woman: :tipping_hand_woman: &emsp;
-tired_face: :tired_face: &emsp;
-
-<br>
-
 tm: :tm: &emsp;
 togo: :togo: &emsp;
 toilet: :toilet: &emsp;
@@ -2041,22 +1891,15 @@ tractor: :tractor: &emsp;
 traffic_light: :traffic_light: &emsp;
 train: :train: &emsp;
 train2: :train2: &emsp;
-
-<br>
-
 tram: :tram: &emsp;
 triangular_flag_on_post: :triangular_flag_on_post: &emsp;
 triangular_ruler: :triangular_ruler: &emsp;
 trident: :trident: &emsp;
 trinidad_tobago: :trinidad_tobago: &emsp;
 tristan_da_cunha: :tristan_da_cunha: &emsp;
-triumph: :triumph: &emsp;
 trolleybus: :trolleybus: &emsp;
 trollface: :trollface: &emsp;
 trophy: :trophy: &emsp;
-
-<br>
-
 tropical_drink: :tropical_drink: &emsp;
 tropical_fish: :tropical_fish: &emsp;
 truck: :truck: &emsp;
@@ -2105,17 +1948,11 @@ umbrella: :umbrella: &emsp;
 unamused: :unamused: &emsp;
 underage: :underage: &emsp;
 unicorn: :unicorn: &emsp;
-
-<br>
-
 united_arab_emirates: :united_arab_emirates: &emsp;
 united_nations: :united_nations: &emsp;
 unlock: :unlock: &emsp;
 up: :up: &emsp;
 upside_down_face: :upside_down_face: &emsp;
-
-<br>
-
 uruguay: :uruguay: &emsp;
 us: :us: &emsp;
 us_outlying_islands: :us_outlying_islands: &emsp;
@@ -2132,24 +1969,17 @@ vampire_man: :vampire_man: &emsp;
 vampire_woman: :vampire_woman: &emsp;
 vanuatu: :vanuatu: &emsp;
 vatican_city: :vatican_city: &emsp;
-
-<br>
-
 venezuela: :venezuela: &emsp;
 vertical_traffic_light: :vertical_traffic_light: &emsp;
 vhs: :vhs: &emsp;
 vibration_mode: :vibration_mode: &emsp;
 video_camera: :video_camera: &emsp;
 video_game: :video_game: &emsp;
-
-<br>
-
 vietnam: :vietnam: &emsp;
 violin: :violin: &emsp;
 virgo: :virgo: &emsp;
 volcano: :volcano: &emsp;
 volleyball: :volleyball: &emsp;
-vomiting_face: :vomiting_face: &emsp;
 vs: :vs: &emsp;
 vulcan_salute: :vulcan_salute: &emsp; 
 
@@ -2163,18 +1993,12 @@ walking: :walking: &emsp;
 walking_man: :walking_man: &emsp;
 walking_woman: :walking_woman: &emsp;
 wallis_futuna: :wallis_futuna: &emsp;
-
-<br>
-
 waning_crescent_moon: :waning_crescent_moon: &emsp;
 waning_gibbous_moon: :waning_gibbous_moon: &emsp;
 warning: :warning: &emsp;
 wastebasket: :wastebasket: &emsp;
 watch: :watch: &emsp;
 water_buffalo: :water_buffalo: &emsp;
-
-<br>
-
 water_polo: :water_polo: &emsp;
 watermelon: :watermelon: &emsp;
 wave: :wave: &emsp;
@@ -2191,9 +2015,10 @@ weight_lifting: :weight_lifting: &emsp;
 weight_lifting_man: :weight_lifting_man: &emsp;
 weight_lifting_woman: :weight_lifting_woman: &emsp;
 western_sahara: :western_sahara: &emsp;
-
-<br>
-
+world_map: :world_map: &emsp;
+wrench: :wrench: &emsp;
+wrestling: :wrestling: &emsp;
+writing_hand: :writing_hand: &emsp;
 whale: :whale: &emsp;
 whale2: :whale2: &emsp;
 wheel_of_dharma: :wheel_of_dharma: &emsp;
@@ -2202,26 +2027,17 @@ white_check_mark: :white_check_mark: &emsp;
 white_circle: :white_circle: &emsp;
 white_flag: :white_flag: &emsp;
 white_flower: :white_flower: &emsp;
-
-<br>
-
 white_haired_man: :white_haired_man: &emsp;
 white_haired_woman: :white_haired_woman: &emsp;
-white_heart: :white_heart: &emsp;
 white_large_square: :white_large_square: &emsp;
 white_medium_small_square: :white_medium_small_square: &emsp;
 white_medium_square: :white_medium_square: &emsp;
-
-<br>
-
 white_small_square: :white_small_square: &emsp;
 white_square_button: :white_square_button: &emsp;
 wilted_flower: :wilted_flower: &emsp;
 wind_chime: :wind_chime: &emsp;
 wind_face: :wind_face: &emsp;
 wine_glass: :wine_glass: &emsp;
-wink: :wink: &emsp;
-wolf: :wolf: &emsp;
 
 <br>
 
@@ -2232,9 +2048,6 @@ woman_cartwheeling: :woman_cartwheeling: &emsp;
 woman_cook: :woman_cook: &emsp;
 woman_dancing: :woman_dancing: &emsp;
 woman_facepalming: :woman_facepalming: &emsp;
-
-<br>
-
 woman_factory_worker: :woman_factory_worker: &emsp;
 woman_farmer: :woman_farmer: &emsp;
 woman_firefighter: :woman_firefighter: &emsp;
@@ -2244,9 +2057,6 @@ woman_in_motorized_wheelchair: :woman_in_motorized_wheelchair: &emsp;
 woman_judge: :woman_judge: &emsp;
 woman_juggling: :woman_juggling: &emsp;
 woman_mechanic: :woman_mechanic: &emsp;
-
-<br>
-
 woman_office_worker: :woman_office_worker: &emsp;
 woman_pilot: :woman_pilot: &emsp;
 woman_playing_handball: :woman_playing_handball: &emsp;
@@ -2256,9 +2066,6 @@ woman_shrugging: :woman_shrugging: &emsp;
 woman_singer: :woman_singer: &emsp;
 woman_student: :woman_student: &emsp;
 woman_teacher: :woman_teacher: &emsp;
-
-<br>
-
 woman_technologist: :woman_technologist: &emsp;
 woman_with_headscarf: :woman_with_headscarf: &emsp;
 woman_with_probing_cane: :woman_with_probing_cane: &emsp;
@@ -2267,15 +2074,6 @@ womans_clothes: :womans_clothes: &emsp;
 womans_hat: :womans_hat: &emsp;
 women_wrestling: :women_wrestling: &emsp;
 womens: :womens: &emsp;
-woozy_face: :woozy_face: &emsp;
-
-<br>
-
-world_map: :world_map: &emsp;
-worried: :worried: &emsp;
-wrench: :wrench: &emsp;
-wrestling: :wrestling: &emsp;
-writing_hand: :writing_hand: &emsp;
 
 <br>
 
@@ -2288,27 +2086,22 @@ x: :x: &emsp;
 ### Y
 
 yarn: :yarn: &emsp;
-yawning_face: :yawning_face: &emsp;
 yellow_circle: :yellow_circle: &emsp;
-yellow_heart: :yellow_heart: &emsp;
 yellow_square: :yellow_square: &emsp;
 yemen: :yemen: &emsp;
 yen: :yen: &emsp;
 yin_yang: :yin_yang: &emsp;
 yo_yo: :yo_yo: &emsp;
-yum: :yum: &emsp;
 
 <br>
 
 ### Z
 
 zambia: :zambia: &emsp;
-zany_face: :zany_face: &emsp;
 zap: :zap: &emsp;
 zebra: :zebra: &emsp;
 zero: :zero: &emsp;
 zimbabwe: :zimbabwe: &emsp;
-zipper_mouth_face: :zipper_mouth_face: &emsp;
 zombie: :zombie: &emsp;
 zombie_man: :zombie_man: &emsp;
 zombie_woman: :zombie_woman: &emsp;
