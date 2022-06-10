@@ -289,8 +289,3 @@ MyPromise.prototype.catch = function(onRejcted) {
 }
 ```
 
-
-<br>
-<br>
-
-[下一篇：Iterator](/ES6/Iterator)

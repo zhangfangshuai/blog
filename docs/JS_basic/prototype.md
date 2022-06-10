@@ -126,8 +126,3 @@ instance.__proto__.constructor === Sub
 instance.__ptoto__.__proto__.constructor === Super
 ```
 
-
-<br>
-<br>
-
-[下一篇：call、apply](/JS_basic/call、apply)

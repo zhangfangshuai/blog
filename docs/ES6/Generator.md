@@ -337,9 +337,3 @@ result.value.then(function(data){
 上面代码中，首先执行 Generator 函数，获取遍历器对象，然后使用`next`方法（第二行），执行异步任务的第一阶段。由于`Fetch`模块返回的是一个 Promise 对象，因此要用then方法调用下一个`next`方法。
 
 
-
-
-<br>
-<br>
-
-[下一篇：Async](/ES6/Async)

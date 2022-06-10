@@ -278,7 +278,3 @@ bird.sayBye = car.sayBye;
 bird.sayBye();  // Bye from Ferrari
 ```
 
-<br>
-<br>
-
-[下一篇：call、apply](/JS_basic/call、apply)

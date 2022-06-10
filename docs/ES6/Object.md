@@ -349,8 +349,3 @@ Object.fromEntries([
 ])
 // { foo: "bar", baz: 42 }
 ```
-
-<br>
-<br>
-
-[下一篇：Operator](/ES6/Operator)

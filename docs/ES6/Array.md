@@ -300,9 +300,3 @@ let arr = Array(3)   // [, , ,]
 [...arr.values()] // [undefined, undefined, undefined]
 ```
 
-
-
-&emsp; <br/>
-&emsp; <br/>
-
-[下一篇：Object](/ES6/Object)

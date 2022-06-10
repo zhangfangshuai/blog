@@ -1,3 +1,13 @@
-section.cover.has-mask .mask.mask {
-    opacity: 0.4;
+/* 主页面样式 */
+.mask {
+    opacity: 0.1 !important;
+}
+
+.websit {
+    display: inline-block;
+    font-size: 30px;
+    margin-left: 12px;
+    color: white;
+    vertical-align: middle;
+    border-radius: 50%;
 }

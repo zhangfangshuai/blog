@@ -271,19 +271,4 @@ jsonToMap('[[true,7],[{"foo":3},["abc"]]]')
 ```
 
 
-<br>
-<br>
-
-[下一篇：Proxy](/ES6/Proxy)
-
-
-
-
-
-
-
-
-
-
-
 

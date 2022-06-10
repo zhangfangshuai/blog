@@ -19,7 +19,4 @@
 - 不能使用`fn.caller`和`fn.arguments`获取函数调用的堆栈
 - 增加了保留字（比如`protected`、`static`和`interface`）
 
-<br>
-<br>
 
-[下一篇：defer、async](/JS_basic/defer、async)

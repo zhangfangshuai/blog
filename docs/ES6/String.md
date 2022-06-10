@@ -101,8 +101,3 @@ let atStr = 'handsome'
 atStr.at(2) // n
 atStr.at(-2) // m
 ```
-
-
-&emsp; <br/>
-&emsp; <br/>
-[下一篇：Number](/ES6/Number)

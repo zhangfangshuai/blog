@@ -156,9 +156,3 @@ let intersect = new Set([...a].filter(x => b.has(x)));
 let difference = new Set([...a].filter(x => !b.has(x)));
 // Set {1}
 ```
-
-
-<br>
-<br>
-
-[下一篇：Map](/ES6/Map)

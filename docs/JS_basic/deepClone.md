@@ -79,7 +79,3 @@ list2[1].name = 'second'
 console.log(list, list2)
 ```
 
-<br>
-<br>
-
-[下一篇：防抖与节流](/JS_basic/防抖与节流)

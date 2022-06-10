@@ -102,7 +102,3 @@ for(let v of obj) {
 这里仅对Generator异实现异步编程做一个大致的介绍，如需了解更深层的用法，请参考官网阅读。
 
 
-<br>
-<br>
-
-[下一篇：Generator](/ES6/Generator)

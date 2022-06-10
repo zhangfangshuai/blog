@@ -7,24 +7,85 @@
   <meta name="description" content="Description">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
   <link rel="shortcut icon" type="image/x-icon" href="./static/image/avatar.webp" />
-  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+  <link rel="stylesheet" href="./static/lib/docsify@4.theme.vue.css">
   <link rel="stylesheet" href="./static/style/global.css">
   <link rel="stylesheet" href="./static/style/reset.css">
-  <!-- <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/emoji.min.js"></script> -->
 </head>
 <body>
   <div id="app"></div>
   <script>
     window.$docsify = {
-      // logo: './static/image/avatar.webp class=sidebar-logo',
+      // 基础配置
+      logo: './static/image/avatar.webp class=sidebar-logo',
       name: '张芳帅的学习站',
-      repo: 'https://github.com/zhangfangshuai/offer',
-      loadSidebar: 'menu.md', // 定制侧边栏
-      subMaxLevel: 3, // 侧边栏目录显示级别
-      loadNavbar: true, // 定制导航栏
-      coverpage: 'coverpage.md'
+      repo: 'https://github.com/zhangfangshuai/studyStation',
+      loadSidebar: 'menu.md',
+      subMaxLevel: 3,
+      loadNavbar: 'navbar.md',
+      coverpage: 'coverpage.md',
+      homepage: 'menu.md',
+      notFoundPage: '404.md',
+
+      // 路由模式 history的兼容性不好，特别是使用本地依赖文件和插件情况
+      routerMode: 'hash',
+
+      // 定义路由别名（支持正则） - 统一使用外层目录
+      alias: { 
+        '/.*/menu.md': '/menu.md',
+        '/.*/navbar.md': '/navbar.md'
+      },
+      // 切换页面时回到顶部
+      auto2top: true,
+      topMargin: 20,
+
+      // 标题自写入
+      autoHeader: false,
+
+      // 关闭封面和首页一起出现
+      onlyCover: true,
+
+      // 小屏设备下合并导航栏到侧边栏
+      mergeNavbar: true,
+
+      // 文档更新日期
+      formatUpdated: '{MM}/{DD} {HH}:{mm}',
+
+      // 全文搜索
+      search: { 
+        placeholder: '搜索'
+      },
+      // 在线评论
+      // disqus: '评论',
+      // 章节索引
+      pagination: {
+        previousText: '上一章',
+        nextText: '下一章',
+        crossChapter: true,
+      },
+      // 字数统计
+      count:{
+        countable: true,
+        fontsize: '0.9em',
+        color: 'rgb(90,90,90)',
+        language: 'chinese'
+      },
+      // code-tab页签 - 用法见README
+      tabs: {
+        persist : true,
+        sync : true,
+        theme : 'classic',
+        tabComments: true,
+        tabHeadings: true
+      }
     }
   </script>
-  <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+  <script src="./static/lib/docsify@4.js"></script>
+  <script src="./static/lib/docsify@4.plugin.copy-code.js"></script>
+  <script src="./static/lib/docsify@4.plugin.search.js"></script>
+  <!-- <script src="./static/lib/docsify@4.plugin.disqus.js"></script> -->
+  <script src="./static/lib/docsify@4.plugin.pagnation.js"></script>
+  <script src="./static/lib/docsify@4.plugin.count.js"></script>
+  <script src="./static/lib/docsify@4.plugin.tabs@1.js"></script>
+  <script src="./static/lib/docsify@4.plugin.external-script.min.js"></script>
 </body>
 </html>

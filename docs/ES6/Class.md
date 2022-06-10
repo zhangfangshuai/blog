@@ -229,9 +229,3 @@ class Rectangle {
 var obj = new Rectangle(3, 4); // 输出 true
 ```
 需要注意的是，子类继承父类时，`new.target`会返回子类。
-
-
-<br>
-<br>
-
-[下一篇：类的继承：Class_extends](/ES6/Class_extends)

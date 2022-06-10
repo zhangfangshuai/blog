@@ -199,8 +199,3 @@ BigInt.prototype.valueOf()
 // 继承了Number对象一个实例方法
 BigInt.prototype.toLocaleString()
 ```
-
-
-&emsp; <br/>
-&emsp; <br/>
-[下一篇：Function](/ES6/Function)

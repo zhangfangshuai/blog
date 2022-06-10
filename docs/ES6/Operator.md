@@ -118,9 +118,3 @@ user.id = user.id || 1;
 // 新的写法
 user.id ||= 1;
 ```
-
-
-<br>
-<br>
-
-[下一篇：Symbol](/ES6/Symbol)

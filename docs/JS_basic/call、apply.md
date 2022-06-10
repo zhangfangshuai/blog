@@ -111,7 +111,3 @@ let max = Math.max.apply(null, numbers)
 &emsp; 总有人记不住`call`和`apply`到底那个是一个参数，哪个是多个参数，这里做个简单的比喻：`call`是打电话叫朋友来家里玩，来的可以是多个朋友，记多个参数。而`apply`是去朋友家玩，你又不会影分身，一次只能去一个朋友家，记一个参数。
 
 
-<br/>
-<br/>
-
-[下一篇：Array_like-Object](/JS_basic/Array_like-Object)

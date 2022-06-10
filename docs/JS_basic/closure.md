@@ -187,8 +187,3 @@ console.log(counter2.value())  // 1
 两个计数器都是通过闭包来生成，他们拥有自己的词法环境，且互相独立不干扰，即：`counter1`里的属性和方法是它所私有的，所以当我们去改变它时，`counter2`是不受影响的。
 
 
-
-<br>
-<br>
-
-[下一篇：this](/JS_basic/this)

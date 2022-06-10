@@ -65,8 +65,3 @@ const DEMO = 'offer'  // 常量
 另外：所有的函数都应该设置为常量
 
 
-
-
-&emsp; <br/>
-&emsp; <br/>
-[下一篇：Destructuring](/ES6/Destructuring)
