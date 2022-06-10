@@ -4,17 +4,11 @@
     height: 50px;
     vertical-align: middle;
 }
+
 .sidebar-logo {
     display: inline-block;
     width: 50px;
     height: 50px;
     border-radius: 50%;
     vertical-align: middle;
-}
-
-.app-name-link::after {
-    content: '张芳帅的学习站';
-    font-size: 0.9em;
-    margin-left: 6px;
-    font-weight: 300;
 }

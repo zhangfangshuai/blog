@@ -11,3 +11,59 @@
     vertical-align: middle;
     border-radius: 50%;
 }
+
+.search.search {
+    margin-bottom: 0;
+    margin: 0;
+    padding: 0;
+    /* position: relative; */
+}
+
+.search .input-wrap {
+    width: 100%;
+    padding: 6px;
+}
+
+.search .results-panel {
+    height: calc(100% - 51px);
+    overflow: auto;
+    width: 100%;
+    padding: 6px 6px 50px;
+    position: absolute;
+    top: 51px;
+    background-color: white;
+    word-wrap: break-word;
+}
+
+.app-name {
+    background-color: #EFEFF3;
+    padding: 12px;
+}
+
+.app-name-link::after {
+    content: '张芳帅的学习站';
+    font-size: 0.9em;
+    margin-left: 12px;
+    font-weight: 400;
+}
+
+.sidebar-nav {
+    height: calc(100% - 141px); /* 51 + 90 */
+    overflow: auto;
+}
+
+/* 滚动条效果重写 */
+.sidebar::-webkit-scrollbar {
+    width: 0px;
+}
+.sidebar-nav::-webkit-scrollbar {
+    width: 0px;
+}
+.results-panel::-webkit-scrollbar {
+    width: 3px;
+}
+
+.results-panel::-webkit-scrollbar-thumb,
+.sidebar-nav::-webkit-scrollbar-thumb {
+    background-color: #EFEFF3;
+}
