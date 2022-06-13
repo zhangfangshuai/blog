@@ -1,6 +1,6 @@
 <!-- 侧边栏配置文件  -->
 
-* JS基础
+* Javascript
     * [use_strict](/JS_basic/use_strict)
     * [defer、async](/JS_basic/defer、async)
     * [强缓存与协商缓存](/JS_basic/强缓存与协商缓存)
@@ -13,6 +13,9 @@
     * [call、apply](/JS_basic/call、apply)
     * [Array_like-Object](/JS_basic/Array_like-Object)
     * [编程风格规范](/JS_basic/编程风格规范)
+
+* CSS3
+    * [自定义属性（变量）](/CSS3/custom_properties)
 
 * ES6
     * [var、let、const](/ES6/var、let、const)
@@ -34,6 +37,7 @@
     * [Class](/ES6/Class)
     * [Class_extends](/ES6/Class_extends)
     * [Module](/ES6/Module)
+    * [setting](/setting)
 
 * Vite
     * [vite优势](/Vite/vite优势)

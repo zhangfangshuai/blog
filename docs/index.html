@@ -7,7 +7,9 @@
   <meta name="description" content="Description">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
   <link rel="shortcut icon" type="image/x-icon" href="./static/image/avatar.webp" />
-  <link rel="stylesheet" href="./static/lib/docsify@4.theme.vue.css">
+  <link rel="stylesheet" href="./static/lib/docsify@4.theme.vue.css" title="vue">
+  <link rel="stylesheet" href="./static/lib/docsify@4.theme.dark.css" title="dark" disabled />
+  <link rel="stylesheet" href="./static/lib/docsify@4.theme.buble.css" title="buble" disabled />
   <link rel="stylesheet" href="./static/style/global.css">
   <link rel="stylesheet" href="./static/style/reset.css">
 </head>
@@ -46,7 +48,7 @@
       onlyCover: true,
 
       // 小屏设备下合并导航栏到侧边栏
-      mergeNavbar: true,
+      mergeNavbar: false,
 
       // 文档更新日期
       formatUpdated: '{MM}/{DD} {HH}:{mm}',

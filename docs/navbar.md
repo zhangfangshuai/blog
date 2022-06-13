@@ -1,6 +1,6 @@
 <!-- 顶部栏配置文件  -->
 
-* JS基础
+* Javascript
     * [use_strict](/JS_basic/use_strict)
     * [defer、async](/JS_basic/defer、async)
     * [强缓存与协商缓存](/JS_basic/强缓存与协商缓存)
@@ -13,6 +13,9 @@
     * [call、apply](/JS_basic/call、apply)
     * [Array_like-Object](/JS_basic/Array_like-Object)
     * [编程风格规范](/JS_basic/编程风格规范)
+
+* CSS3
+    * [自定义属性（变量）](/CSS3/custom_properties)
 
 * ES6
     * [var、let、const](/ES6/var、let、const)
@@ -43,9 +46,13 @@
 
 * Emoji
     * [emoji](/Emoji/emoji.md)
-
 * |
 
-* :heart: 关于作者
+* 关于作者
     * :heart: 靓仔一枚 
     * :mailbox: 邮箱：zfs_zzu@163.com
+
+* :gear:
+    * :smile: 通用主题 &emsp;
+    * :sunglasses: 黑色主题 &emsp;
+    * :fox_face: buble主题 &emsp;
