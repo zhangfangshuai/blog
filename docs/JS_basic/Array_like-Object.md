@@ -75,8 +75,5 @@ console.log(ps)  // 类数组对象
 可遍历对象属于`Symbol`类型，在控制台上无法打印出其内部的数据结构，只能看到如 `Array Iterator {}`，而类数组对象本质还是Object，可以很清晰的看到变量存储的数据信息。
 
 控制台信息如下：
-<div style="display: flex; justify-content: space-around;">
 
 ![symbol_iterator_struct](https://img-blog.csdnimg.cn/3c6ca754468a48f792a96106c57a5135.png)
-
-</div>
