@@ -4,8 +4,8 @@
 <br>
 
 <div style="display: flex; justify-content: space-around;">
-    <img src="../static/image/code/array_struct.png" />
-    <img src="../static/image/code/object_struct.png" />
+    <img src="/static/image/code/array_struct.png" />
+    <img src="/static/image/code/object_struct.png" />
 </div>
 
 &emsp; 在控制台上可以很清晰的看到，数组的存放逻辑本质上和对象是一样的，数组的下标类同于对象的`key`，数组的值类同于对象的`value`。数组上有`length`，挂有数组的原型方法；对象挂有对象的原型方法。
@@ -13,7 +13,7 @@
 ### 定义
 `Array_like Object`，又称**类数组对象**；指的是数据结构类似数组，却又不是数组的一类特殊对象。
 <div style="display: flex; justify-content: space-around;">
-    <img src="../static/image/code/array_like-object_struct.png" />
+    <img src="/static/image/code/array_like-object_struct.png" />
 </div>
 
 &emsp; 从结构上可以得到两点信息：
@@ -71,5 +71,5 @@ console.log(ps)  // 类数组对象
 
 控制台信息如下：
 <div style="display: flex; justify-content: space-around;">
-    <img src="../static/image/code/symbol_iterator_struct.png" />
+    <img src="/static/image/code/symbol_iterator_struct.png" />
 </div>

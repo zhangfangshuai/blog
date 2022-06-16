@@ -55,4 +55,4 @@
 * :gear:
     * :smile: 通用主题 &emsp;
     * :sunglasses: 黑色主题 &emsp;
-    * :fox_face: buble主题 &emsp;
+    * :fox_face: buble主题
