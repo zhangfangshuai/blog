@@ -17,6 +17,7 @@
 
 * CSS3
     * [自定义属性（变量）](/CSS3/custom_properties)
+    * []()
 
 * ES6
     * [var、let、const](/ES6/var、let、const)
@@ -51,8 +52,11 @@
 * |
 
 * Help
-    * [emoji](/Help/emoji.md)
     * [markdown](/Help/markdown.md)
+    * [guide](/Help/guide.md)
+    * [emoji](/Help/emoji.md)
+    * [Setting](/Help/setting.md)
+    * [README](/Help/README.md)
     * []()
 
 * |

@@ -7,9 +7,10 @@
   <meta name="description" content="Description">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
   <link rel="shortcut icon" type="image/x-icon" href="./static/image/avatar.webp" />
-  <link rel="stylesheet" href="./static/lib/docsify@4.theme.vue.css" title="vue">
-  <link rel="stylesheet" href="./static/lib/docsify@4.theme.dark.css" title="dark" disabled />
-  <link rel="stylesheet" href="./static/lib/docsify@4.theme.buble.css" title="buble" disabled />
+  <link rel="stylesheet" href="./static/style/lib/docsify@4.theme.vue.css" title="vue">
+  <link rel="stylesheet" href="./static/style/lib/docsify@4.theme.dark.css" title="dark" disabled />
+  <link rel="stylesheet" href="./static/style/lib/docsify@4.theme.buble.css" title="buble" disabled />
+  <!-- <link rel="stylesheet" href="./static/style/lib/docsify.plugin.katex.css" /> -->
   <link rel="stylesheet" href="./static/style/global.css">
   <link rel="stylesheet" href="./static/style/reset.css">
 </head>
@@ -57,8 +58,8 @@
       search: { 
         placeholder: 'Search...'
       },
-      // 在线评论
-      // disqus: '评论',
+      // sidebar collapse 默认展示层级
+      sidebarDisplayLevel: 2,
       // 章节索引
       pagination: {
         previousText: '上一章',
@@ -74,24 +75,57 @@
       },
       // code-tab页签 - 用法见README
       tabs: {
-        persist : true,
-        sync : true,
-        theme : 'classic',
-        tabComments: true,
-        tabHeadings: true
+        theme : 'classic', // 'classic'、‘material’、false
+      },
+      // 分享
+      share: {
+          reddit: true,
+          linkedin: true,
+          facebook: true,
+          twitter: true,
+          whatsapp: true,
+          telegram: true,
+      },
+
+      // 支持uml图
+      plantuml: {
+        skin: 'classic',
+      },
+
+      // 自适应弹窗
+      'flexible-alerts': {
+        note: {
+          label: "NOTE"
+        },
+        tip: {
+          label: "SUCCESS"
+        },
+        warning: {
+          label: "WARNING"
+        },
+        attention: {
+          label: "ATTENTION"
+        }
       }
-    }
+    };
   </script>
   <script src="./static/lib/docsify@4.js"></script>
   <script src="./static/lib/docsify@4.plugin.search.js"></script>
   <script src="./static/lib/docsify@4.plugin.emoji.js"></script>
   <script src="./static/lib/docsify@4.plugin.copy-code.js"></script>
   <script src="./static/lib/docsify@4.plugin.pagnation.js"></script>
-  <!-- <script src="./static/lib/docsify@4.plugin.disqus.js"></script> -->
   <script src="./static/lib/docsify@4.plugin.zoom-image.js"></script>
   <script src="./static/lib/docsify@4.plugin.count.js"></script>
   <script src="./static/lib/docsify@4.plugin.tabs@1.js"></script>
   <script src="./static/lib/docsify@4.plugin.external-script.min.js"></script>
-  <script src="./static/lib/flowchart.min.js"></script>
+  <script src="./static/lib/docsify.plugin.share.js"></script>
+  <script src="./static/lib/docsify.plugin.puml.js"></script>
+  <!-- <script src="./static/lib/docsify.plugin.katex.js"></script> -->
+  <script src="https://unpkg.com/docsify-plugin-flexible-alerts"></script>
+  <script src="./static/lib/docsify.plugin.sidebar-collapse.js"></script>
+  <!-- 流程图支持 -->
+  <script src="//unpkg.com/mermaid/dist/mermaid.js"></script>
+  <script src="//unpkg.com/docsify-mermaid@latest/dist/docsify-mermaid.js"></script>
+  <script>window.mermaid.initialize({ startOnLoad: true })</script>
 </body>
 </html>

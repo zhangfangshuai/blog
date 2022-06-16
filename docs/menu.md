@@ -1,4 +1,5 @@
 <!-- 侧边栏配置文件  -->
+* [:star2: 更新日志](/version.md)
 
 * Javascript
     * [use_strict](/JS_basic/use_strict)
@@ -37,7 +38,6 @@
     * [Class](/ES6/Class)
     * [Class_extends](/ES6/Class_extends)
     * [Module](/ES6/Module)
-    * [setting](/setting)
 
 * Vite
     * [vite优势](/Vite/vite优势)
@@ -45,3 +45,4 @@
 
 * 框架与设计模式
     * [Vue.axios.api](/Framework/Vue.axios.api)
+
