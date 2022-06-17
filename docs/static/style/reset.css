@@ -85,3 +85,8 @@ nav.app-nav ul li:last-child {
 .content {
     /* overflow: auto; */
 }
+
+
+.emoji {
+    vertical-align: sub;
+}
