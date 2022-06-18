@@ -36,7 +36,9 @@
 
 `~~删除文本~~` ~~删除文本~~
 
-`> 引用文本` > 引用文本
+`> 引用文本`
+
+> 引用文本
 
 `!> 危险警告文本`
 
@@ -50,13 +52,32 @@
 
 ### 插入链接与图片
 
+用法：`[张芳帅的博客](https://zhangfangshuai.github.io/studyStation)`
+
 链接： [张芳帅的博客](https://zhangfangshuai.github.io/studyStation)
+
+
+图片路径只能使用远程绝对路径。可以借用csdn的图片服务器。<br>
+用法： `![这是一张图片](https://imgconvert.csdnimg.cn/`
 
 图片： ![这是一张图片](https://imgconvert.csdnimg.cn/aHR0cHM6Ly9hdmF0YXIuY3Nkbi5uZXQvNy83L0IvMV9yYWxmX2h4MTYzY29tLmpwZw)
 
 <br>
 
 ### 列表样式
+
+```markdown
+- 项目
+  - 项目
+    - 项目
+
+1. 项目1
+2. 项目2
+3. 项目3
+
+- [ ] 计划任务
+- [x] 完成任务
+```
 
 - 项目
   - 项目
@@ -71,21 +92,15 @@
 
 <br>
 
-### 创建一个表格
-一个简单的表格是这么创建的：
+### 创建表格
+使用`:----:`居中，使用`:----`居左，使用`----:`居右
 
-项目     | 价格
-------- | -----
-电脑  | $1600
-手机  | $12
-导管  | $1
+```markdown
+| 第一列        | 第二列         | 第三列        |
+|:-----------: | ------------: |:-------------|
+| 第一列文本居中 | 第二列文本居右   | 第三列文本居左 |
 
-<br>
-
-### 设定内容居中、居左、居右
-使用`:---------:`居中 <br>
-使用`:----------`居左 <br>
-使用`----------:`居右 <br>
+```
 
 | 第一列       | 第二列         | 第三列        |
 |:-----------:| -------------:|:-------------|
@@ -114,14 +129,6 @@ SmartyPants将ASCII标点字符转换为“智能”印刷标点HTML实体。例
 
 ### 代码块支持配置多Tab
 
-```markdown
-#### **English**
-Hello!
-#### **French**
-Bonjour!
-#### **Italian**
-Ciao!
-```
 ```markdown
 <!-- tabs:start -->
 #### **English**
@@ -160,42 +167,52 @@ _colon_;emojikey:  或
 
 ### 自定义警示语
 
-信息警示引用
+**信息警示引用**
+```markdown
+> [!NOTE]
+> An alert of type 'note' using global style 'callout'. 
+```
+
 > [!NOTE]
 > An alert of type 'note' using global style 'callout'. 
 
-信息警示引用，改写flat皮肤
+**信息警示引用，改写flat皮肤**
+```markdown
+> [!NOTE|style:flat]
+> An alert of type 'note' using global style 'flat'. 
+```
+
 > [!NOTE|style:flat]
 > An alert of type 'note' using global style 'flat'. 
 
-成功警示引用
+**成功警示引用** `> [!TIP]`
 > [!TIP]
 > An alert of type 'success' using global style 'callout'.
 
-警告警示引用
+**警告警示引用** `> [!WARNING]`
 > [!WARNING]
 > An alert of type 'warning' using global style 'callout'.
 
-危险警示引用
+**危险警示引用** `> [!ATTENTION]`
 > [!ATTENTION]
 > An alert of type 'attention' using global style 'callout'.
 
-自定义样式警示引用
+**自定义样式警示引用**
 `!TIP|style:flat|label:My own heading|iconVisibility:hidden`
 > [!TIP|style:flat|label:My own heading|iconVisibility:hidden]
 > An alert of type 'tip' using alert specific style 'flat' which overrides global style 'callout'.
 > In addition, this alert uses an own heading and hides specific icon.
 
-可以在现有的提示引用里改写如下配置，也可以在index里增加自定义提示，可选设置如下：
+可以在现有的提示引用里改写如下配置，也可以在index.html里增加自定义提示，可选设置如下：
 
-| 配置项        |    允许值      | 默认值        |
-|:-----------:| :-------------:|:-------------:|
-| style | callout, flat  | callout |
-| label | Any text | '' |
-| icon  | 合法的字体图标 | 如：‘fas fa-comment’ |
-| className | 样式类名字符串 | '' |
-| labelVisibility | visible, hidden | visible |
-| iconVisibility | visible, hidden | visible |
+| 配置项           |    允许值        | 默认值               |
+|:--------------: | :-------------: |:------------------: |
+| style           | callout, flat   | callout             |
+| label           | Any text        | ''                  |
+| icon            | 合法的字体图标    | 如: ‘fas fa-comment’ |
+| className       | 样式类名字符串    | ''                   |
+| labelVisibility | visible, hidden | visible             |
+| iconVisibility  | visible, hidden | visible             |
 
 <br>
 
