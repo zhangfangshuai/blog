@@ -53,7 +53,7 @@
 
 `Process.nextTick(Node)`、`Promise`（典型的微任务）、`Object.observe`(废弃)、`MutationObserver`
 
-?> 微任务不是单条语句，他在事件循环机制中也有一个队列，叫MicroTask queue，在当前宏任务执行结束前，由微任务循环来读取
+?> 微任务不是单条语句，他在事件循环机制中也有一个队列，叫MicroTask queue，在当前宏任务执行结束前，由微任务循环来读取 
 
 
 
