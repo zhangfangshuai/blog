@@ -40,10 +40,26 @@
     * [Class_extends](/ES6/Class_extends)
     * [Module](/ES6/Module)
     * []()
+  
+* Vue源码
+    * [Vue组件间通信](/Vue/Vue组件间通信.md)
+    * [Vue双向数据绑定](/Vue/Vue双向数据绑定.md)
+    * [Vue响应式原理](/Vue/Vue响应式原理.md)
+    * [Vue依赖收集](/Vue/Vue依赖收集.md)
+    * [Vue虚拟DOM与diff算法](/Vue/Vue虚拟DOM与diff算法.md)
+    * [Vue事件API及机制](/Vue/Vue事件API及机制.md)
+    * [Vue中VNode实现](/Vue/Vue中VNode实现.md)
+    * [Vue中template的编译](/Vue/Vue中template的编译.md)
+    * [Vue从Template到Dom](/Vue/Vue从Template到Dom.md)
+    * [Vue的nextTick异步更新Dom策略](/Vue/Vue的nextTick异步更新Dom策略.md)
+    * [Vue的keep-alive实现](/Vue/Vue的keep-alive实现.md)
+    * [Vuex问题提炼](/Vue/Vuex/Vuex问题提炼.md)
+    * [Vuex源码解析](/Vue/Vuex/Vuex源码解析.md)
+    * []()
 
 * 打包工具
-    * [Vite](/PackTool/Vite)
     * [Webpack](/PackTool/Webpack)
+    * [Vite](/PackTool/Vite)
     * []()
 
 * 架构

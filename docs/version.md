@@ -1,5 +1,28 @@
 #### 更新日志
 
+
+#### v0.9.1 - `2022-06-26`
+- 扩充Vue全家桶源码
+    - 新增《Vuex问题提炼》
+<br>
+<br>
+
+#### v0.9.0 - `2022-06-25`
+- 新增Vue全家桶源码 - 摘抄自github
+    - 新增《Vue组件间通信》
+    - 新增《Vue双向数据绑定》
+    - 新增《Vue依赖收集》
+    - 新增《Vue虚拟DOM与diff算法》
+    - 新增《Vue事件API及机制》
+    - 新增《Vue中VNode实现》
+    - 新增《Vue中template的编译》
+    - 新增《Vue从Template到Dom》
+    - 新增《Vue的nextTick异步更新Dom策略》
+    - 新增《Vue的keep-alive实现》
+    - 新增《Vuex源码解析》
+<br>
+<br>
+
 #### v0.8.3 - `2022-06-19`
 - 扩充Javascript模块
     - 新增《EventLoop》
