@@ -27,9 +27,10 @@ setTimeout(()=>{
 },0)
 
 /**
- * @func 监视对DOM树所做更改的能力
+ * @func 监视DOM树是否被更改，执行回调
  * @desc config 配置要观察的DOM树的属性信息
  * @desc .observe(target, config) 监听target DOM的更改，若匹配到给定的配置config时，执行回调函数(观察者)。
+ * @func MutationObserver是微任务，会在下一个GUI渲染前执行
  */
 function observeDom() {
     const config = { attributes: true, childList: true, subtree: true };
@@ -96,7 +97,7 @@ for (let i = 0; i < total; i++) {
 
 <br/>
 
->[!TIP|label:方案一]
+>[!TIP|label:方案二]
 >使用setTimeout来创建宏任务，延时设置为0，表示尽可能早执行
 
 该方案结合浏览器自身的渲染优化，能较好的解决假死、卡顿问题。
@@ -130,7 +131,7 @@ loop(total,index);
 
 <br/>
 
->[!TIP|label:方案二]
+>[!TIP|label:方案三]
 >使用`requestAnimationFrame`创建宏任务，每一个宏任务执行完成后就让GUI渲染进程渲染一次页面
 
 &emsp; `requestAnimationFrame`是浏览器提供的刷新接口，调用的频率紧紧跟随浏览器的刷新频率，能自适应不同的设备性能，且如果页面不是激活状态下的话，调用会自动暂停，节省了CPU、GPU开销。
@@ -166,7 +167,7 @@ loop(total,index);
 
 <br/>
 
->[!TIP|label:方案三]
+>[!TIP|label:方案四]
 >创建文档片段`createDocumentFragment()`，在原DOM树外创建一个子树，对子树进行完整变更后，再插入到原DOM树中
 
 &emsp; 该方案与方案二几乎一致，只是将浏览器自动优化的部分改成手动使用创建文档片段的形式进行处理，属近乎完美的方案。

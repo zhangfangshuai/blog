@@ -44,7 +44,7 @@ JS任务分两种：同步任务 和 异步任务
 &emsp; 事件循环驱动你的代码按照这些任务排队的顺序，从任务队列有序的处理它们。只有那些已经处于任务队列中的任务会被依次调度。其余的任务会等待到下一次迭代检查，如定时器任务未到期，它的回调不会被添加到任务队列中。
 
 **常见的宏任务种类**：<br>
-`JS执行入口`、`setTimeout`、`setInterval`、`setImmediate(Node)`、`I/O操作`、 `UI Rendering`
+`JS执行入口`、`setTimeout`、`setInterval`、`requestAnimationFrame`、`setImmediate(Node)`、`I/O操作`、 `UI Rendering`
 
 ##### 2. 微任务（MicroTask）
 &emsp; 与宏任务不同的是，微任务对资源是<span class="red-code">抢占式</span>的，一旦有微任务被添加到任务队列，进入**微任务队列 Micro queue**中，它会在本轮次事件循环结束前，被调度进入执行栈中执行，当该微任务执行完成，系统再次检查任务队列是否还有其他微任务，直到当前所有微任务执行完毕，结束本轮次事件循环，开始下一个事件循环读取下一个宏任务。<br>
@@ -54,7 +54,7 @@ JS任务分两种：同步任务 和 异步任务
 
 **常见的微任务** <br>
 
-`Process.nextTick(Node)`、`Promise`（典型的微任务）、`MutationObserver`
+`Process.nextTick(Node)`、`Promise`（典型的微任务）、`MutationObserver`（监视DOM树是否被更改，执行回调）
 
 ?> 微任务不是单条语句，他在事件循环机制中也有一个队列，叫MicroTask queue，在当前宏任务执行结束前，由微任务循环来读取 
 
