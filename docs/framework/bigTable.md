@@ -11,9 +11,12 @@
 let ul = document.getElementById('container');
 const now = Date.now(); // 开始时间
 const total = 100000; // 插入十万条数据
-
+// 观察DOM树被更新的时机
 observeDom()
-// 将数据插入容器中
+
+/**
+ * @desc 利用循环简答粗暴的将数据直接插入DOM树中
+ */
 for (let i = 0; i < total; i++) {
     let li = document.createElement('li');
     li.innerText = ~~(Math.random() * total)  //  取整
@@ -98,9 +101,11 @@ for (let i = 0; i < total; i++) {
 <br/>
 
 >[!TIP|label:方案二]
->使用setTimeout来创建宏任务，延时设置为0，表示尽可能早执行
+>使用`setTimeout`来创建宏任务，延时设置为0，表示尽可能早执行。目的是提前让出执行权。
 
-该方案结合浏览器自身的渲染优化，能较好的解决假死、卡顿问题。
+&emsp; 该方案结合浏览器自身的渲染优化，能较好的解决假死、卡顿问题。
+
+?>&ensp;延时器内的数据量决定了此宏任务在执行栈执行所需的时间，也决定了GUI线程多久渲染一次。需要注意的是这并不是由延时器设置的延时时长决定。
 
 ```javascript
 let ul = document.getElementById('table');
@@ -181,7 +186,7 @@ let index = 0 //每条记录的索引
 
 /**
  * @func 使用requestAnimationFrame创建宏任务，提前给GUI渲染线程让出执行权
- * @func 创建文档片段，手动优化原DOM树回流问题。其实现代浏览器页会自动优化
+ * @func 创建文档片段，手动优化原DOM树回流问题。其实现代浏览器也会自动优化
  */
 function loop(curTotal, curIndex) {
     if (curTotal <= 0) return false;
