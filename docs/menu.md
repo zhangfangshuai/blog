@@ -1,19 +1,21 @@
 <!-- 侧边栏配置文件  -->
 * [:star2: 更新日志](/version.md)
 
-* Javascript
-    * [use_strict](/JS_basic/use_strict)
-    * [defer、async](/JS_basic/defer、async)
-    * [强缓存与协商缓存](/JS_basic/强缓存与协商缓存)
-    * [EventLoop](/JS_basic/eventLoop)
-    * [DeepClone](/JS_basic/deepClone)
-    * [防抖与节流](/JS_basic/防抖与节流)
-    * [Closure](/JS_basic/closure)
-    * [Prototype](/JS_basic/prototype)
-    * [This](/JS_basic/this)
-    * [call、apply](/JS_basic/call、apply)
-    * [Array_like-Object](/JS_basic/Array_like-Object)
-    * [编程风格规范](/JS_basic/编程风格规范)
+* JavaScript
+    * [use_strict](/JS/use_strict)
+    * [defer、async](/JS/defer、async)
+    * [强缓存与协商缓存](/JS/强缓存与协商缓存)
+    * [线程、进程与浏览器内核](/JS/browserCore)
+    * [EventLoop](/JS/eventLoop)
+    * [回流与重绘](/JS/reflow、repaint)
+    * [DeepClone](/JS/deepClone)
+    * [防抖与节流](/JS/防抖与节流)
+    * [Closure](/JS/closure)
+    * [Prototype](/JS/prototype)
+    * [This](/JS/this)
+    * [call、apply](/JS/call、apply)
+    * [Array_like-Object](/JS/Array_like-Object)
+    * [编程风格规范](/JS/编程风格规范)
 
 * CSS3
     * [自定义属性（变量）](/CSS3/custom_properties)
@@ -39,7 +41,7 @@
     * [Class_extends](/ES6/Class_extends)
     * [Module](/ES6/Module)
   
-* Vue全家桶源码
+* Vue源码
     * [Vue组件间通信](/Vue/Vue组件间通信.md)
     * [Vue双向数据绑定](/Vue/Vue双向数据绑定.md)
     * [Vue响应式原理](/Vue/Vue响应式原理.md)
@@ -54,11 +56,13 @@
     * [Vuex问题提炼](/Vue/Vuex/Vuex问题提炼.md)
     * [Vuex源码解析](/Vue/Vuex/Vuex源码解析.md)
 
-* 打包工具
+* 打包优化
     * [Webpack](/PackTool/Webpack)
     * [Vite](/PackTool/Vite)
 
-* 框架与设计模式
+* 架构
+    * [微前端Qiankun](/Framework/qiankun)
     * [Vue.axios.api](/Framework/Vue.axios.api)
-    * [Qiankun](/Framework/qiankun)
+    * [大列表渲染优化](/Framework/bigTable)
+    * [图片加载异常处理方案](/Framework/imageError)
 

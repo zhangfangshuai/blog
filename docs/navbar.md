@@ -1,18 +1,20 @@
 <!-- 顶部栏配置文件  -->
 
-* Javascript
-    * [use_strict](/JS_basic/use_strict)
-    * [defer、async](/JS_basic/defer、async)
-    * [强缓存与协商缓存](/JS_basic/强缓存与协商缓存)
-    * [eventLoop](/JS_basic/eventLoop)
-    * [deepClone](/JS_basic/deepClone)
-    * [防抖与节流](/JS_basic/防抖与节流)
-    * [closure](/JS_basic/closure)
-    * [prototype](/JS_basic/prototype)
-    * [this](/JS_basic/this)
-    * [call、apply](/JS_basic/call、apply)
-    * [Array_like-Object](/JS_basic/Array_like-Object)
-    * [编程风格规范](/JS_basic/编程风格规范)
+* JS
+    * [use_strict](/JS/use_strict)
+    * [defer、async](/JS/defer、async)
+    * [强缓存与协商缓存](/JS/强缓存与协商缓存)
+    * [线程、进程与浏览器内核](/JS/browserCore)
+    * [eventLoop](/JS/eventLoop)
+    * [回流与重绘](/JS/reflow、repaint.md)
+    * [deepClone](/JS/deepClone)
+    * [防抖与节流](/JS/防抖与节流)
+    * [closure](/JS/closure)
+    * [prototype](/JS/prototype)
+    * [this](/JS/this)
+    * [call、apply](/JS/call、apply)
+    * [Array_like-Object](/JS/Array_like-Object)
+    * [编程风格规范](/JS/编程风格规范)
     * []()
 
 * CSS3
@@ -41,7 +43,7 @@
     * [Module](/ES6/Module)
     * []()
   
-* Vue源码
+* Vue
     * [Vue组件间通信](/Vue/Vue组件间通信.md)
     * [Vue双向数据绑定](/Vue/Vue双向数据绑定.md)
     * [Vue响应式原理](/Vue/Vue响应式原理.md)
@@ -57,7 +59,7 @@
     * [Vuex源码解析](/Vue/Vuex/Vuex源码解析.md)
     * []()
 
-* 打包工具
+* 打包
     * [Webpack](/PackTool/Webpack)
     * [Vite](/PackTool/Vite)
     * []()
@@ -65,6 +67,8 @@
 * 架构
     * [Vue.axios.api](/Framework/Vue.axios.api)
     * [Qiankun](/Framework/qiankun)
+    * [大列表渲染优化](/Framework/bigTable)
+    * [图片加载异常处理方案](/Framework/imageError)
     * []()
 
 * |
@@ -77,9 +81,7 @@
     * [README](/Help/README.md)
     * []()
 
-* |
-
-* 关于作者
+* :male_detective:
     * :heart: 靓仔一枚 
     * :mailbox: 邮箱：zfs_zzu@163.com
     * []()

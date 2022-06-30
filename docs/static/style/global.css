@@ -17,3 +17,60 @@
     display: flex;
     justify-content: space-around;
 }
+
+small {
+    color: #909399;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.red {
+    color: #F56C6C;
+}
+
+.blue {
+    color: #409EFF;
+}
+
+.green {
+    color: #67C23A;
+}
+
+.orange {
+    color: #E6A23C;
+}
+
+.gray {
+    color: #909399
+}
+
+.black {
+    color: #111111;
+}
+
+.code, .red-code, .green-code, .blue-code {
+    color: #F5650F;
+    background: #F4F4F5;
+    display: inline-block;
+    padding: 0 6px;
+    border-radius: 2px;
+    font-size: 0.8em;
+    font-weight: 500;
+}
+
+.red-code {
+    color: red;
+    background: #FDE2E2;
+}
+
+.green-code {
+    color: #67C23A;
+    background: #E1F3D8;
+}
+
+.blue-code {
+    color: #409EFF;
+    background: #D9ECFF;
+}

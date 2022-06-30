@@ -68,8 +68,8 @@
 
 ```markdown
 - 项目
-  - 项目
-    - 项目
+ - 项目
+   - 项目
 
 1. 项目1
 2. 项目2
@@ -80,8 +80,8 @@
 ```
 
 - 项目
-  - 项目
-    - 项目
+ - 项目
+   - 项目
 
 1. 项目1
 2. 项目2
@@ -186,6 +186,10 @@ _colon_;emojikey:  或
 > An alert of type 'note' using global style 'flat'. 
 
 **成功警示引用** `> [!TIP]`
+```markdown
+> [!TIP]
+> An alert of type 'note' using global style 'callout'. 
+```
 > [!TIP]
 > An alert of type 'success' using global style 'callout'.
 
@@ -247,24 +251,24 @@ Note right of 王五: 李四想了很长时间... \n如果文字太长，使用\
 
 ```
 gantt
-        dateFormat  YYYY-MM-DD
-        title Adding GANTT diagram functionality to mermaid
-        section 现有任务
-        已完成               :done,    des1, 2014-01-06,2014-01-08
-        进行中               :active,  des2, 2014-01-09, 3d
-        计划一               :         des3, after des2, 5d
-        计划二               :         des4, after des3, 5d
+       dateFormat  YYYY-MM-DD
+       title Adding GANTT diagram functionality to mermaid
+       section 现有任务
+       已完成               :done,    des1, 2014-01-06,2014-01-08
+       进行中               :active,  des2, 2014-01-09, 3d
+       计划一               :         des3, after des2, 5d
+       计划二               :         des4, after des3, 5d
 ```
 
 ```mermaid
 gantt
-        dateFormat  YYYY-MM-DD
-        title Adding GANTT diagram functionality to mermaid
-        section 现有任务
-        已完成               :done,    des1, 2014-01-06,2014-01-08
-        进行中               :active,  des2, 2014-01-09, 3d
-        计划一               :         des3, after des2, 5d
-        计划二               :         des4, after des3, 5d
+       dateFormat  YYYY-MM-DD
+       title Adding GANTT diagram functionality to mermaid
+       section 现有任务
+       已完成               :done,    des1, 2014-01-06,2014-01-08
+       进行中               :active,  des2, 2014-01-09, 3d
+       计划一               :         des3, after des2, 5d
+       计划二               :         des4, after des3, 5d
 ```
 - 关于 **甘特图** 语法，参考 [这儿][2],
 
@@ -276,26 +280,26 @@ gantt
 
 ```
 graph TD
-    O[开始] --- A
-    A[长方形] --- 链接 --> B((圆))
-    A --> C(圆角长方形)
-    B --> D{菱形}
-    C --> D
-    A --> E[fa:fa-ban forbidden]
-    E --> F(fa:fa-spinner)
-    D --- G[结束]
+   O[开始] --- A
+   A[长方形] --- 链接 --> B((圆))
+   A --> C(圆角长方形)
+   B --> D{菱形}
+   C --> D
+   A --> E[fa:fa-ban forbidden]
+   E --> F(fa:fa-spinner)
+   D --- G[结束]
 ```
 
 ```mermaid
 graph LR
-    O[开始] --- A
-    A[长方形] --- 链接 --> B((圆))
-    A --> C(圆角长方形)
-    B --> D{菱形}
-    C --> D
-    A --> E[fa:fa-ban forbidden]
-    E --> F(fa:fa-spinner)
-    D --- G[结束]
+   O[开始] --- A
+   A[长方形] --- 链接 --> B((圆))
+   A --> C(圆角长方形)
+   B --> D{菱形}
+   C --> D
+   A --> E[fa:fa-ban forbidden]
+   E --> F(fa:fa-spinner)
+   D --- G[结束]
 ```
 
 <br>
@@ -305,30 +309,30 @@ graph LR
 绘制序列图需要指定语言类型为`mermaid`，且在代码配置区域第一样标记；`sequenceDiagram`，如下：
 ```
 sequenceDiagram
-    participant Alice
-    participant Bob
-    Alice ->> John: Hello John, how are you?
-    loop Healthcheck
-        John ->> John: Fight against hypochondria
-    end
-    Note right of John: 标注信息 <br/>换行信息!
-    John -->> Alice: Great!
-    John ->> Bob: How about you?
-    Bob -->> John: Jolly good!
+   participant Alice
+   participant Bob
+   Alice ->> John: Hello John, how are you?
+   loop Healthcheck
+       John ->> John: Fight against hypochondria
+   end
+   Note right of John: 标注信息 <br/>换行信息!
+   John -->> Alice: Great!
+   John ->> Bob: How about you?
+   Bob -->> John: Jolly good!
 ```
 
 ```mermaid
 sequenceDiagram
-    participant Alice
-    participant Bob
-    Alice ->> John: Hello John, how are you?
-    loop Healthcheck
-        John ->> John: Fight against hypochondria
-    end
-    Note right of John: 标注信息 <br/>换行了!
-    John -->> Alice: Great!
-    John ->> Bob: How about you?
-    Bob -->> John: Jolly good!
+   participant Alice
+   participant Bob
+   Alice ->> John: Hello John, how are you?
+   loop Healthcheck
+       John ->> John: Fight against hypochondria
+   end
+   Note right of John: 标注信息 <br/>换行了!
+   John -->> Alice: Great!
+   John ->> Bob: How about you?
+   Bob -->> John: Jolly good!
 ```
 
 - 关于 **Mermaid** 语法，参考 [这儿][1]
@@ -336,4 +340,4 @@ sequenceDiagram
 
 
 
- [1]: https://mermaidjs.github.io/
+[1]: https://mermaidjs.github.io/
