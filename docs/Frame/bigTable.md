@@ -173,9 +173,9 @@ loop(total,index);
 <br/>
 
 >[!TIP|label:方案四]
->创建文档片段`createDocumentFragment()`，在原DOM树外创建一个子树，对子树进行完整变更后，再插入到原DOM树中
+>在方案三上进行改良，创建文档片段`createDocumentFragment()`，在原DOM树外创建一个子树，对子树进行完整变更后，再插入到原DOM树中
 
-&emsp; 该方案与方案二几乎一致，只是将浏览器自动优化的部分改成手动使用创建文档片段的形式进行处理，属近乎完美的方案。
+&emsp; `createDocumentFragment`能创建一个独立子树，对它的修改与原DOM树并无关系。该方案的效果与方案三几乎一致，只是将浏览器自动优化的部分改成手动使用创建文档片段的形式进行处理，属近乎完美的方案。
 
 ``` javascript
 let ul = document.getElementById('table')
