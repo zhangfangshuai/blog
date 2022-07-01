@@ -14,6 +14,7 @@
     * [this](/JS/this)
     * [call、apply](/JS/call、apply)
     * [Array_like-Object](/JS/Array_like-Object)
+    * [GC原理](/JS/GC)
     * [编程风格规范](/JS/编程风格规范)
     * []()
 
