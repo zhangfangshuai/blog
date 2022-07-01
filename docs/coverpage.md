@@ -1,4 +1,4 @@
-![logo](./static/image/avatar.webp ':class=logo') <span class="websit">张芳帅的学习站</span>
+![logo](./static/image/avatar.webp ':class=logo') <span class="websit">张芳帅的博客</span>
 
 
 [GitHub](https://github.com/zhangfangshuai/offer)
