@@ -65,10 +65,10 @@
     * []()
 
 * 架构
-    * [Vue.axios.api](/Framework/Vue.axios.api)
-    * [Qiankun](/Framework/qiankun)
-    * [大列表渲染优化](/Framework/bigTable)
-    * [图片加载异常处理方案](/Framework/imageError)
+    * [Vue.axios.api](/Frame/Vue.axios.api)
+    * [Qiankun](/Frame/qiankun)
+    * [大列表渲染优化](/Frame/bigTable)
+    * [图片加载异常处理方案](/Frame/imageError)
     * []()
 
 * |

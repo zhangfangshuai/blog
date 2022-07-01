@@ -61,8 +61,8 @@
     * [Vite](/PackTool/Vite)
 
 * 架构
-    * [微前端Qiankun](/Framework/qiankun)
-    * [Vue.axios.api](/Framework/Vue.axios.api)
-    * [大列表渲染优化](/Framework/bigTable)
-    * [图片加载异常处理方案](/Framework/imageError)
+    * [微前端Qiankun](/Frame/qiankun)
+    * [Vue.axios.api](/Frame/Vue.axios.api)
+    * [大列表渲染优化](/Frame/bigTable)
+    * [图片加载异常处理方案](/Frame/imageError)
 
