@@ -1,5 +1,11 @@
 ## 张芳帅的学习站
 
+#### 启动命令
+
+```
+docsify serve ./docs
+```
+
 #### 访问地址
 
 https://zhangfangshuai.github.io/studyStation
