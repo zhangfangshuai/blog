@@ -92,3 +92,88 @@ modules: {
 - 定义产品上线环境 `webpack.optimize.DedupePlugun()`；
 - 分离css文件插件 `extract-text-webpack-plugin()`;
 - css文件压缩插件 `CssMinimizerPlugin()`；
+
+
+#### 六、vue-loader was used without the corresponding plugin. Make sure to include VueLoaderPlugin in your webpack config.
+
+原因：webpack4及以后版本，使用vue-loader时需要配合VueLoaderPlugin插件，该插件来自于vue-loader/lib/plugin，而高版本的vue-loader没有这个文件。即webpack高版本于vue-loader高版本不兼容导致
+
+笔者出问题版本清单
+```js
+“webpack”: “^5.72.0”,
+“vue”: “^3.2.33”
+“vue-loader”: “^17.0.0”,
+“vue-template-compiler”: “^2.6.14”,
+```
+
+解决方案一：（不推荐）
+
+安装vue-loader的版本为^15.7.0版本.
+```bash
+npm i -D vue-loader@15.7.9
+```
+
+解决方案二：（推荐）
+
+在vue-loader@17版本中，VueLoaderPlugin被放到了dist文件夹下，且删除了lib文件夹，也就是说，plugin被打包到vue-loader自身了。因此修改如下
+```javascript
+const { VueLoaderPlugin } = require('vue-loader') // 推荐
+```
+
+另外，需要注意的是，Vue3及以上版本，初始化vue时不在是
+```js
+import Vue from 'vue'
+```
+而是改成
+```js
+import { creatApp } from 'vue'
+
+creatApp(App).mount('#app')
+```
+此时，就能看到浏览器正常渲染出了目标页面
+
+#### 七、使用url-loader、file-loader处理图片时，图片被多打出一个export default “..base64..”文件，且本地启动css背景图片不显示
+
+原因：浏览器css背景图被引用成多打出来的base64文件图片，并不是真正的目标文件。因为webpack5中的url-loader、file-loader已经废弃，且破坏性不兼容，这两个loader在webpack5中已经无法使用
+
+解决方案一：修改成webpack5默认的资源处理器
+```javascript
+module.exports = {
+    module: {
+        rules: [
+            {
+                test: /\.(png|jpe?g|svg|gif|eot|woff|ttf|pdf)$/,
+                type: 'asset/resource'
+            }
+        ]
+    }
+}
+```
+
+解决方案二：如果还想用这两个loader，则添加兼容策略。<br />
+（1）在`option`里关闭url-loader的es6模块化解析，使用commonjs解析； <br />
+（2）添加`type: 'javascript/auto'`，防止资源被打包两次
+```javascript
+module.exports = {
+    module: {
+        rules: [
+            {
+                test: /\.(png|jpe?g|gif|eot|woff|ttf|pdf)$/,
+                use: [
+                    {
+                        loader: 'url-loader',
+                        options: {
+                            limit: 1024 * 10 ,
+                            fallback: 'file-loader',
+                            // 关闭url-loader的es6模块化解析，使用commonjs解析
+                            esModule: false
+                        }
+                    }
+                ],
+                // 防止一张图片被打包两次
+                type: 'javascript/auto',
+            }
+        ]
+    }
+}
+```

@@ -64,9 +64,13 @@
 * Webpack
     * [踩坑日记](/Webpack/StudyNotes)
     * [工作原理](/Webpack/Introduction)
+    * [Configer](/Webpack/Configer)
     * [Loaders](/Webpack/Loaders)
     * [Plugins](/Webpack/Plugins)
-    * [Configer](/Webpack/Configer)
+    * [Resolve](/Webpack/Resolve)
+    * [Externals](/Webpack/Externals)
+    * [SourceMap](/Webpack/SourceMap)
+    * [自定义Loader](/Webpack/SelfLoader)
     * []()
 
 * 打包
