@@ -12,7 +12,7 @@
 1. 组件中的 `render` 方法中的 `this` 为组件实例对象。
 2. 组件自定义的方法中的 `this` 为undefined，解决办法有两个：
     - 强制绑定`this`：在构造器中通过函数对象的`bind()`实现。 `this.fn = this.fn.bind(this)`
-    - 箭头函数
+    - 赋值语句 + 箭头函数
 3. 状态数据，不能直接修改或更新。必须通过内置API-`setState`进行更新。
 
 &emsp;
