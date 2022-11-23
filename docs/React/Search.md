@@ -9,7 +9,7 @@
 2. github用户信息是分页返回的，页面实现分页展示
 3. 点击用户头像，进入github仓库主页
 
-<img src="../static/image/react/github-search.png" alt="项目成型效果" >
+<img src="./static/image/react/github-search.png" alt="项目成型效果" >
 
 &emsp;
 
