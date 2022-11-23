@@ -73,6 +73,8 @@
     * [LifeCircle](React/lifeCircle.md)
     * [Diff算法与Key](React/Diff_Key.md)
     * [TodoList案例](React/TodoList.md)
+    * [Cli-Proxy](React/Proxy.md)
+    * [Github-Search案例](React/Search.md)
     * []()
 
 * Webpack

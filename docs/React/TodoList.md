@@ -2,7 +2,7 @@
 
 
 ### 项目源码
-项目源代码Github地址：[React-TodoList](https://github.com/zhangfangshuai/react-todoList)
+项目源代码Github地址：[待办清单小工具](https://github.com/zhangfangshuai/react-todoList)
 
 
 ### 项目需求
@@ -24,8 +24,8 @@
       - 输入框内容为空时不允许添加任务
       - 任务添加完成输入框应该清空
       - 页面无任务时全选按钮不能在勾选状态
-      - 删除任务时需用户二次确认等
-      - 列表无任务卡时，展示无数据占位效果
+      - 删除任务时需用户二次确认
+      - 列表无任务卡时，展示无数据占位效果等
 4. 需要对组件Props做类型和必要性检查
 
 &emsp;
