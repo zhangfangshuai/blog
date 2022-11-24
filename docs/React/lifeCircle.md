@@ -210,7 +210,7 @@ class B extends React.Component {
 
 ### 生命周期钩子图【新版】
 
-<img src="./../../static/image/react/lifeCircle-new.png" />
+<img src="./static/image/react/lifeCircle-new.png" />
 
 &emsp;
 
