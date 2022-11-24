@@ -87,7 +87,7 @@
 
 挂载后错误如下：
 
-<img style="width: 330px" src="./../static/image/react/diff.png">
+<img style="width: 330px" src="./static/image/react/diff.png">
 
 
 &emsp;
