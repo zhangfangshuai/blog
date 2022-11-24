@@ -2,7 +2,7 @@
 
 ### 生命周期钩子图【旧版】
 
-<img src="。/../../static/image/react/lifeCircle.png" />
+<img src="./static/image/react/lifeCircle.png" />
 
 &emsp;
 ### 生命周期几条流程【旧版】
@@ -250,11 +250,11 @@ class B extends React.Component {
 
 ### 新旧对比图
 
-<img src="./../../static/image/react/lifeCircle-compare.png" />
+<img src="./static/image/react/lifeCircle-compare.png" />
 
 &emsp;
 
-<img src="./../../static/image/react/lifeCircle-compare2.png" />
+<img src="./static/image/react/lifeCircle-compare2.png" />
 
 
 ### 生命周期测试【新版】
