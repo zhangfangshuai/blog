@@ -82,9 +82,10 @@ React Router有三类，分别是
 - 适用于Web开发的`react-router-dom`
 - 适用于React Native的`react-router-native`
 - 和通用的路由`react-router-anywhere`
+  
 其中，`react-router-dom`常用的有两种类型路由：
-- history路由
-- hash路由
+- HistoryRouter
+- HashRouter
 
 本文以history为例作为讲解。了解更多： [React-Router](https://react-router.docschina.org/)
 ```bash
@@ -161,18 +162,19 @@ match:
 &emsp;
 
 ### 导航组件NavLink的二次封装
-react-router-dom 提供了`<Link>`组件，用作路由的导航功能，同时提供了`<NavLink>`组件可以实现路由链接的高亮，通过添加`activeClassName="router-active"`表示当路由被选中时自动插入的类名，默认为`active`。
+react-router-dom 提供了`<Link>`组件，用作路由的导航功能，同时提供了`<NavLink>`组件可以实现路由链接的高亮，通过添加`activeClassName="router-active"`指定当路由被选中时自动插入的类名，默认为`active`。
 
 由于`<NavLink>`有多个通用的参数属性，使得代码冗余，因此二次封装成`MyNavLink`
 
-```jsx
+```js
 import React, { Component } from 'react'
 import { NavLink } from 'react-router-dom'
 
 export default class MyNavLink extends Component {
   render() {
     return (
-      <NavLink activeClassName="router-active" className="your-class" {...this.props} />
+        // this.props中包含了MyNavLink中所有的props，包括标签体内容即 this.props.children
+        <NavLink activeClassName="router-active" className="your-class" {...this.props} />
     )
   }
 }

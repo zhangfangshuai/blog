@@ -61,7 +61,7 @@
     * [Props](React/Props.md)
     * [Refs](React/Refs.md)
     * [Events](React/Events.md)
-    * [高阶函数与柯里化方案](React/Keli.md)
+    * [纯函数、高阶函数、柯里化](React/Keli.md)
     * [非受控与受控组件](React/CtrlComponent.md)
     * [LifeCircle](React/lifeCircle.md)
     * [Diff算法与Key](React/Diff_Key.md)
@@ -69,6 +69,7 @@
     * [Cli-Proxy](React/Proxy.md)
     * [Github-Search案例](React/Search.md)
     * [Router](React/Router.md)
+    * [Redux](React/Redux.md)
 
 * Vue源码
     * [Vue组件间通信](/Vue/Vue组件间通信.md)
