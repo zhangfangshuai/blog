@@ -14,6 +14,7 @@
     * [this](/JS/this)
     * [call、apply](/JS/call、apply)
     * [Array_like-Object](/JS/Array_like-Object)
+    * [JS加密策略](/Frame/encrypt)
     * [GC原理](/JS/GC)
     * [编程风格规范](/JS/编程风格规范)
     * []()
@@ -44,21 +45,10 @@
     * [Class_extends](/ES6/Class_extends)
     * [Module](/ES6/Module)
     * []()
-  
+
 * Vue
-    * [Vue组件间通信](/Vue/Vue组件间通信.md)
-    * [Vue双向数据绑定](/Vue/Vue双向数据绑定.md)
-    * [Vue响应式原理](/Vue/Vue响应式原理.md)
-    * [Vue依赖收集](/Vue/Vue依赖收集.md)
-    * [Vue虚拟DOM与diff算法](/Vue/Vue虚拟DOM与diff算法.md)
-    * [Vue事件API及机制](/Vue/Vue事件API及机制.md)
-    * [Vue中VNode实现](/Vue/Vue中VNode实现.md)
-    * [Vue中template的编译](/Vue/Vue中template的编译.md)
-    * [Vue从Template到Dom](/Vue/Vue从Template到Dom.md)
-    * [Vue的nextTick异步更新Dom策略](/Vue/Vue的nextTick异步更新Dom策略.md)
-    * [Vue的keep-alive实现](/Vue/Vue的keep-alive实现.md)
-    * [Vuex问题提炼](/Vue/Vuex/Vuex问题提炼.md)
-    * [Vuex源码解析](/Vue/Vuex/Vuex源码解析.md)
+    * [组件通信策略](/Vue/组件通信策略.md)
+    * [父子组件生命周期顺序](/Vue/lifeCircleOrder.md)
     * []()
   
 * React
@@ -77,6 +67,7 @@
     * [Github-Search案例](React/Search.md)
     * [Router](React/Router.md)
     * [Redux](React/Redux.md)
+    * [Extentions](React/Extentions.md)
     * []()
 
 * Webpack

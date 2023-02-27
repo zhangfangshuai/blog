@@ -3,7 +3,7 @@
 
 JSX全称 JavaSript XML，是React定义的一种类似于XML的JS扩展语法：JS+XML。
 
-JSX被创造出来，就只为了解决一个问题，那就是 <span style="background: lightgreen; padding: 2px 6px;">React原生创建虚拟DOM太繁琐，有了JSX可以让开发人员以熟悉的HTML编码方式更简单的创建虚拟DOM。</span>
+JSX被创造出来，就只为了解决一个问题，那就是 <span class="highlight">React原生创建虚拟DOM太繁琐，有了JSX可以让开发人员以熟悉的HTML编码方式更简单的创建虚拟DOM。</span>
 
 看一个例子：实现一个如下需求的HTML
 ```html

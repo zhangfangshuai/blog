@@ -74,3 +74,14 @@ small {
     color: #409EFF;
     background: #D9ECFF;
 }
+
+.highlight {
+    padding: 2px 6px;
+    background: lightgreen;
+}
+
+.center {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
