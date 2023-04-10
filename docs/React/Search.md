@@ -84,7 +84,7 @@ PubSub.publish(MY_TOPIC, 'world')
 #### 1、利用最原始的xhr发送Ajax请求
 原生提供，无需安装第三方插件
 ```js
-const api = `https://api.github.com/search/users?1=${keywords}`
+const api = `https://api.github.com/search/users?q=${keywords}`
 // 创建XHR对象
 const xhr = new XMLHttpRequest()
 // 掉哟工open函数，指定请求方式与URL地址
@@ -152,7 +152,7 @@ fetch也有很多二次封装的库，但因为使用的用户不多，且异步
 ##### 1、一个简单的fetch-get请求案例
 ```js
 // get请求
-const api = `https://api.github.com/search/users?1=${keywords}`
+const api = `https://api.github.com/search/users?q=${keywords}`
 fetch(url).then(response => {
     // response返回的是握手服务器的结果，而不是请求的数据
     // 执行了.then就表示服务器可达，至于接口是否可达，需再判断
@@ -192,7 +192,7 @@ fetch(api).then(res => {
 如果`.then`中不执行第二个函数参数即`error => {}`，而如上述使用的是最后的`.catch`，且存在多级链式调用，那么建议改成`async-await`写法
 ```js
 search = async () => {
-    const api = `https://api.github.com/search/users?1=${keywords}`
+    const api = `https://api.github.com/search/users?q=${keywords}`
     try {
         const response = await fetch(api)
         const data = await(response.json())

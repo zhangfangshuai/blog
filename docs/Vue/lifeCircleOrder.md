@@ -4,15 +4,16 @@
 单组件内，生命周期钩子函数执行顺序如下
 
 ##### # `beforeCreate`
-实例初始化之后，数据与事件配置之前，很少用；
+1. 该阶段只初始化了实例，事件，和生命周期函数；
+2. 此时还不能访问data中的数据（data中的数据还未代理到vm上，还未执行_data中所有属性的getter/setter）
 
 ##### # `created`
 实例创建完成，还未挂载；<br>
-此时可以访问`props`、`data`、`computed`、`watch`、`methods`都能被访问到，但不能访问 `$el`。<br>
+此时可以访问`props`、`data`、`computed`、`watch`、`methods`都能被访问到，但不能访问DOM元素 `$el`。<br>
 可以在这里发起初始化页面的异步接口请求
 
 ##### # `beforeMount`
-挂载之前调用，相关render函数首次被执行，很少用
+挂载之前调用，render函数首次被执行
 
 ##### # `mounted`
 实例挂载完成。此时可以访问DOM，`vm.$el`、`this.$refs`<br>
@@ -57,26 +58,12 @@
 
 ### 2. 父子组件加载渲染过程
 
-
-```plantuml
-父组件 -> 子组件: 父 beforeCreate
-父组件 -> 子组件: 父 created
-父组件 -> 子组件: 父 beforeMount
-子组件 -> 父组件: 子 beforeCreate
-子组件 -> 父组件: 子 created
-子组件 -> 父组件: 子 beforeMount
-子组件 -> 父组件: 子 mounted
-父组件 -> 子组件: 父 mounted
-```
+<div class="center"><img alt="父子组件加载渲染过程" src="../static/image/vue/lifeCircle-mounted.png"></div>
 
 ### 3. 子组件更新过程
 
-```plantuml
-父组件 -> 子组件: 父 beforeUpdate
-子组件 -> 父组件: 子 beforeUpdate
-子组件 -> 父组件: 子 updated
-父组件 -> 子组件: 父 updated
-```
+<div class="center"><img alt="子组件更新过程" src="../static/image/vue/lifeCircle-update.png"></div>
+
 
 ### 5. 销毁过程
 ```plantuml

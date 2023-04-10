@@ -72,11 +72,14 @@
     * [Router](React/Router.md)
     * [Redux](React/Redux.md)
     * [Extentions](React/Extentions.md)
+    * [组件间通信方式](React/组件间通讯方式.md)
 
 
 * Vue
     * [组件通信策略](/Vue/组件通信策略.md)
     * [父子组件生命周期顺序](/Vue/lifeCircleOrder.md)
+    * [vue监测数据的原理](/Vue/Observer.md)
+    * [v-html与XSS攻击](/Vue/vHtml_XSS.md)
 
 * Vue源码
     * [Vue组件间通信](/Vue/Source/Vue组件间通信.md)

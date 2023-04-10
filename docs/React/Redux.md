@@ -65,7 +65,13 @@ const store = createStore(reducer)
 2. 通过`dispatch(action)`分发action，触发reducer调用，产生新的state
 3. 通过`subscribe(listener)`注册监听，当产生了新的state时，自动调用
 
+#### 4、redux-store的全貌 
+<div><img alt="store内部结构" style="height: 150px;" src="../static/image/react/redux-store.png" /></div>
 
+其中：
+1. getState(): 获取store中保存的状态
+2. subscribe(): 在react组件中检测store状态改变时，编写更新页面的逻辑（redux与react不互通，redux只负责管理store，与react无关）
+3. dispatch(): react组件中，用于给store发布action
 &emsp;
 
 ### redux的编写步骤
@@ -408,15 +414,21 @@ export default container
 
 
 #### 整合写法总结
-1. 容器组件和UI组件整合成一个文件
-2. 使用了react-redux之后，无需自己给容器组件传递store，给`<App/>`包裹一个react-redux提供的API`<Provider store={store}>`，给全应用自动注入Redux的`store`
-3. 使用了react-redux之后，无需自己检测redux中状态的改变，容器组件自己可以完成监测，自动重新render页面。
-4. `mapDispatchToProps`有两种写法，即function格式返回所有的操作state的方法，和一个对象，表示方法与action的映射
-5. 一个组件要和redux交互的几个步骤
-    - 定义好UI组件 -- 不暴露，作为它容器组件的内部组件使用
-    - 定义`connect`生成一个容器组件，暴露作为父组件引入使用
-    - 写法是 `connect(state => ({key:value}), {key:xxxAction})(UI组件)`
-    - 在UI组件中通过`this.props.xxxxx`读取和操作状态
+1. 为减少文件个数，容器组件和UI组件可以整合成一个文件，因最终暴露的是容器组件，而UI组件只是在容器组件中引用，所以应该把UI组件整合到容器组件中
+2. 无需自己给每个容器组件传递store，使用react-redux插件提供的Provider在App组件中统一传入，Provider会自动查找App下所有容器组件，并注入store
+3. react-redux插件提供的connect()()其实做了很多事情，除了连接redux和UI组件的基本功能外，还自动检测redux状态发生改变，重新调用render函数更新页面等，因此无需再手动调用store.subscribe()检测store变化，去render(App)
+4. connect()()第一个括号的第二个参数mapDispatchToProps，可以简写成一个对象，由react-redux插件自动去调用dispatch实现action的分发
+
+#### 组件与redux通信开发过程
+1. 定义UI组件 --- 不暴露
+2. 引入connect函数生成一个容器组件，并暴露，写法为
+```
+connect(
+    state => ({ key: value })
+    { key: xxxAction }
+)(UI组件)
+```
+3. 在UI组件中通过this.props.xxx读取状态和操作状态的方法
 
 
 ### 【最佳实践】使用configerStore
@@ -427,7 +439,7 @@ export default container
 import { createStore, combineReducers, applyMiddleware } from 'redux'
 import thunk from 'redux-thunk'
 
-import CountReducer from './reducers/count.js'
+import CountReducer from './reducers/count'
 import PersonReducer from './reducers/person'
 
 const rootReducer = combineReducers({
@@ -446,13 +458,13 @@ export default createStore(rootReducer, applyMiddleware(thunk))
 然而可以使用插件@reduxjs/toolkit的`configureStore`来简化这个流程
 ```js
 import { configureStore } from '@reduxjs/toolkit'
-import CountReducer from './reducers/count.js'
-import PersonReducer from './reducers/person'
+import count from './reducers/count'
+import person from './reducers/person'
 
 export default configureStore({
     reducer: {
-        count: CountReducer,
-        persons: PersonReducer
+        count,
+        persons
     }
 })
 ```

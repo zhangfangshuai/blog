@@ -43,9 +43,13 @@ var createBrowserHistory = require("history").createBrowserHistory;
 
 ```js
 // 使用
-// Create your own history instance.
+// 创建实例
 import { createBrowserHistory } from "history";
 let history = createBrowserHistory();
+
+// 使用hash路由（锚点）路由，它也能引起历史记录的变化。这种的兼容性更好，但url不太美观
+import { createHashHistory } from "history";
+let history = createHashHistory()
 
 // ... or just import the browser history singleton instance.
 import history from "history/browser";
@@ -57,8 +61,9 @@ import history from "history/browser";
 // Get the current location.
 let location = history.location;
 
-// Listen for changes to the current location.
-let unlisten = history.listen(({ location, action }) => {
+// 使用history.listen来监听浏览器历史记录栈的变化，push、pop都会触发该事件
+// unlisten是为了后续销毁监听
+let listener = history.listen(({ location, action }) => {
   console.log(action, location.pathname, location.state);
 });
 
@@ -72,7 +77,7 @@ history.replace("/logged-in");
 history.back();
 
 // To stop listening, call the function returned from listen().
-unlisten();
+listener();
 ```
 
 &emsp;
