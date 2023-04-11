@@ -8,7 +8,7 @@ docsify serve ./docs
 
 #### 访问地址
 
-https://zhangfangshuai.github.io/studyStation
+https://zhangfangshuai.github.io/blog
 
 
 > [!TIP｜label:温馨提示]
