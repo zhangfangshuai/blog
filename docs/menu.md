@@ -80,6 +80,7 @@
     * [父子组件生命周期顺序](/Vue/lifeCircleOrder.md)
     * [vue监测数据的原理](/Vue/Observer.md)
     * [v-html与XSS攻击](/Vue/vHtml_XSS.md)
+    * [组件与VueComponent](/Vue/Vue_VueComponent.md)
 
 * Vue源码
     * [Vue组件间通信](/Vue/Source/Vue组件间通信.md)
