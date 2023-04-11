@@ -72,7 +72,7 @@
     * [Router](React/Router.md)
     * [Redux](React/Redux.md)
     * [Extentions](React/Extentions.md)
-    * [组件间通信方式](React/组件间通讯方式.md)
+    * [组件间通信方式](React/组件间通信方式.md)
 
 
 * Vue
