@@ -81,6 +81,14 @@
     * [vue监测数据的原理](/Vue/Observer.md)
     * [v-html与XSS攻击](/Vue/vHtml_XSS.md)
     * [组件与VueComponent](/Vue/Vue_VueComponent.md)
+    * [【Vue3】一些变化](/Vue/Vue3/Vue3的变化.md)
+    * [【Vue3】setup](/Vue/Vue3/setup函数.md)
+    * [【Vue3】响应式数据](/Vue/Vue3/响应式数据.md)
+    * [【Vue3】计算属性](/Vue/Vue3/计算属性.md)
+    * [【Vue3】侦听属性](/Vue/Vue3/侦听属性.md)
+    * [【Vue3】生命周期钩子](/Vue/Vue3/生命周期钩子.md)
+    * [【Vue3】组合式函数](/Vue/Vue3/组合式函数.md)
+    * [【Vue3】toRef与toRefs](/Vue/Vue3/toRef与toRefs.md)
 
 * Vue源码
     * [Vue组件间通信](/Vue/Source/Vue组件间通信.md)
