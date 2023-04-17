@@ -383,13 +383,13 @@
 <br>
 <br>
 
-#### v0.4.4
+#### v0.4.3
 - 扩充Javascript模块
     - 新增《Array_like-Object》
 <br>
 <br>
-#### v0.4.2
 
+#### v0.4.2
 - 扩充ES6模块
     - 新增《Function》
     - 新增《Array》

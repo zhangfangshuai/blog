@@ -82,7 +82,7 @@
     * [v-html与XSS攻击](/Vue/vHtml_XSS.md)
     * [组件与VueComponent](/Vue/Vue_VueComponent.md)
     * [【Vue3】一些变化](/Vue/Vue3/Vue3的变化.md)
-    * [【Vue3】setup](/Vue/Vue3/setup函数.md)
+    * [【Vue3】setup](/Vue/Vue3/setup.md)
     * [【Vue3】响应式数据](/Vue/Vue3/响应式数据.md)
     * [【Vue3】计算属性](/Vue/Vue3/计算属性.md)
     * [【Vue3】侦听属性](/Vue/Vue3/侦听属性.md)
