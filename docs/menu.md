@@ -51,6 +51,7 @@
     * [接口](/TS/interface)
     * [类](/TS/class)
     * [函数](/TS/function)
+    * [范型](/TS/generics)
 
 * Webpack
     * [踩坑日记](/Webpack/StudyNotes)
