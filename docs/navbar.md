@@ -130,7 +130,7 @@
     * []()
 
 * :male_detective:
-    * :heart: 靓仔一枚 
+    * :heart: [靓仔一枚](/Personal/LuckyLife.md) 
     * :mailbox: 邮箱：zfs_zzu@163.com
     * []()
 
