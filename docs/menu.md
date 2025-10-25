@@ -101,6 +101,7 @@
     * [【Vue3】shallowRef与toRaw](/Vue/Vue3/shallowRef与toRaw.md)
     * [【Vue3】provide与inject](/Vue/Vue3/provide与inject.md)
     * [【Vue3】插件](/Vue/Vue3/插件.md)
+    * [【Vue3】vue3知识总结笔记](/Vue/Vue3/vue3知识总结笔记.md)
 
 
 * Vue源码
